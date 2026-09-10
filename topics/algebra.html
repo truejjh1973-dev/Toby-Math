@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algebra — Toby Math</title>
+  <meta name="description" content="Algebra, gathered in one place: contest strategies, BC course units, and the formulas that matter.">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] },
+      options: { enableMenu: false }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Toby <span class="accent-dot">Math</span></a>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="../competition/index.html">Competition Math</a>
+      <a href="../courses/index.html">BC Courses</a>
+      <a href="../activities/index.html">Activities</a>
+      <a href="index.html">Topics</a>
+      <a href="../about.html">About</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#263E;</button>
+      <a class="search-link" href="../search.html" title="Search">&#128269;</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <p class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Topics</a> / Algebra</p>
+    <h1>Algebra</h1>
+    <p>Expressions, equations, quadratics, and functions — gathered across contests, courses, and formulas.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <article class="article">
+      <button class="btn btn-primary print-btn" onclick="window.print()">&#128424;&nbsp; Print / Save PDF</button>
+
+      <h2>Why algebra matters more than anything</h2>
+      <p>
+        Every other branch of high-school math is algebra wearing a costume. Geometry is algebra about
+        lengths and angles, trigonometry is algebra about ratios, calculus is algebra about rates. If the
+        algebra below feels automatic, everything else becomes easier.
+      </p>
+
+      <h2>The three identities to know cold</h2>
+      <p>Expanding and factoring are two views of the same three patterns. Master these and the rest follows:</p>
+      $$(a + b)^2 = a^2 + 2ab + b^2$$
+      $$(a - b)^2 = a^2 - 2ab + b^2$$
+      $$(a - b)(a + b) = a^2 - b^2$$
+
+      <h2>The quadratic formula</h2>
+      <p>For $ax^2 + bx + c = 0$, with $a \neq 0$, the solutions are</p>
+      $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+      <p>
+        The quantity $b^2 - 4ac$ — the <strong>discriminant</strong> — tells you what to expect before you
+        finish:
+      </p>
+      <table>
+        <thead><tr><th>Value of $b^2 - 4ac$</th><th>Nature of solutions</th></tr></thead>
+        <tbody>
+          <tr><td>$> 0$</td><td>Two distinct real solutions</td></tr>
+          <tr><td>$= 0$</td><td>One repeated real solution</td></tr>
+          <tr><td>$< 0$</td><td>No real solutions (two complex)</td></tr>
+        </tbody>
+      </table>
+
+      <div class="tip-box">
+        <strong>In contests:</strong> discriminant questions love to hide in number theory. A problem about
+        "real roots for all values of $k$" almost always reduces to "the discriminant is never positive".
+      </div>
+
+      <h2>Where to find it on this site</h2>
+      <ul>
+        <li><a href="../competition/strategy.html">Problem-solving strategy</a> — algebra as the default tool</li>
+        <li><a href="../courses/grade10.html">BC Math 10</a> — factoring, exponents, radicals, linear systems</li>
+        <li><a href="../courses/grade11.html">BC Math 11</a> — quadratics, rational expressions, inequalities</li>
+        <li><a href="../courses/grade12.html">BC Math 12</a> — functions and transformations</li>
+        <li><a href="../cheatsheets/grade10.html">Math 10 formula sheet</a> — the formulas at a glance</li>
+        <li><a href="../cheatsheets/grade11.html">Math 11 formula sheet</a></li>
+      </ul>
+
+      <h2>Check your algebra</h2>
+      <div class="quiz" data-quiz="algebra-intro" data-title="Algebra quick check">
+        <div class="q" data-answer="C">
+          <h4>1. Expand $(x + 3)^2$.</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$x^2 + 9$</button>
+            <button type="button" data-choice="B">$x^2 + 3x + 9$</button>
+            <button type="button" data-choice="C">$x^2 + 6x + 9$</button>
+            <button type="button" data-choice="D">$x^2 + 6x + 6$</button>
+          </div>
+          <p class="feedback">Middle term: $2 \cdot x \cdot 3 = 6x$, so $(x+3)^2 = x^2 + 6x + 9$.</p>
+        </div>
+        <div class="q" data-answer="B">
+          <h4>2. Which is the correct factorization of $x^2 - 9$?</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$(x - 3)^2$</button>
+            <button type="button" data-choice="B">$(x - 3)(x + 3)$</button>
+            <button type="button" data-choice="C">$(x - 9)^2$</button>
+            <button type="button" data-choice="D">$(x - 3)(x - 3)$</button>
+          </div>
+          <p class="feedback">Difference of squares: $x^2 - 9 = x^2 - 3^2 = (x - 3)(x + 3)$.</p>
+        </div>
+        <div class="q" data-answer="C">
+          <h4>3. For $x^2 + 4x + 5 = 0$, the discriminant $b^2 - 4ac$ is&hellip;</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$16$</button>
+            <button type="button" data-choice="B">$0$</button>
+            <button type="button" data-choice="C">$-4$</button>
+            <button type="button" data-choice="D">$4$</button>
+          </div>
+          <p class="feedback">$4^2 - 4(1)(5) = 16 - 20 = -4$ — negative, so there are no real solutions.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <h4>Toby Math</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../activities/index.html">Activities</a></li>
+          <li><a href="../search.html">Search</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competition Math</h4>
+        <ul>
+          <li><a href="../competition/index.html">Overview</a></li>
+          <li><a href="../competition/amc.html">AMC</a></li>
+          <li><a href="../competition/waterloo.html">Waterloo Contests</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>BC Courses &amp; Topics</h4>
+        <ul>
+          <li><a href="../courses/index.html">Curriculum Overview</a></li>
+          <li><a href="index.html">Topics Hub</a></li>
+          <li><a href="algebra.html">Algebra</a></li>
+          <li><a href="../cheatsheets/grade10.html">Formula Sheets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span data-year>2026</span> Toby. Built with plain HTML, CSS &amp; JavaScript.
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/quiz.js"></script>
+</body>
+</html>

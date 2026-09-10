@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BC Math 10 — Toby Math</title>
+  <meta name="description" content="BC Math 10 at a glance: exponents and radicals, factoring polynomials, and solving linear systems.">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] },
+      options: { enableMenu: false }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Toby <span class="accent-dot">Math</span></a>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="../competition/index.html">Competition Math</a>
+      <a href="index.html">BC Courses</a>
+      <a href="../activities/index.html">Activities</a>
+      <a href="../topics/index.html">Topics</a>
+      <a href="../about.html">About</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#263E;</button>
+      <a class="search-link" href="../search.html" title="Search">&#128269;</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <p class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">BC Courses</a> / Math 10</p>
+    <h1>BC Math 10</h1>
+    <p>Foundations &amp; Pre-Calculus 10 — the year where algebra becomes the everyday tool.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <article class="article">
+      <button class="btn btn-primary print-btn" onclick="window.print()">&#128424;&nbsp; Print / Save PDF</button>
+
+      <h2>The big ideas</h2>
+      <p>
+        Math 10 is the course that turns elementary arithmetic into high-school algebra. Everything after it —
+        quadratics, trigonometry, functions — builds directly on the ideas mastered here.
+      </p>
+      <ul>
+        <li>Operations on fractions and rational numbers become fluent and reliable.</li>
+        <li>Exponents and radicals gain rules you can <em>prove</em>, not just memorize.</li>
+        <li>Algebra moves from "solving" to "manipulating" — factoring is the star skill.</li>
+        <li>Two unknowns meeting one condition introduce the idea of a <em>system</em>.</li>
+      </ul>
+
+      <h2>Unit outline</h2>
+      <table>
+        <thead>
+          <tr><th>Unit</th><th>Core skills</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Number systems</td><td>Rational/irrational numbers, perfect squares and cubes, prime factorization</td></tr>
+          <tr><td>Exponents &amp; radicals</td><td>Laws of exponents, square roots, simplifying radicals, scientific notation</td></tr>
+          <tr><td>Polynomials</td><td>Operations, common factoring, trinomial factoring, difference of squares</td></tr>
+          <tr><td>Linear relations</td><td>Slope, intercepts, graphing, equations of lines</td></tr>
+          <tr><td>Linear systems</td><td>Solving two equations / two unknowns by substitution and elimination</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Why these topics matter later</h2>
+      <p>
+        <strong>Factoring</strong> is the single skill you'll use every single year of high school math —
+        quadratics, rational expressions, and calculus all recycle it. Getting fluent here makes grades 11
+        and 12 noticeably calmer.
+      </p>
+
+      <div class="tip-box">
+        <strong>Study tip:</strong> practise factoring until the pattern is instant. Twenty five-minute
+        sprints of mixed factoring beat one long session — recall speed is what contests and tests reward.
+      </div>
+
+      <h2>Check your factoring</h2>
+      <div class="quiz" data-quiz="math10-factoring" data-title="Factoring quick check">
+        <div class="q" data-answer="B">
+          <h4>1. Factor $x^2 - 16$.</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$(x - 4)^2$</button>
+            <button type="button" data-choice="B">$(x - 4)(x + 4)$</button>
+            <button type="button" data-choice="C">$(x - 16)^2$</button>
+            <button type="button" data-choice="D">$(x + 4)^2$</button>
+          </div>
+          <p class="feedback">Difference of squares: $x^2 - 16 = (x - 4)(x + 4)$.</p>
+        </div>
+        <div class="q" data-answer="C">
+          <h4>2. Factor $x^2 + 7x + 12$.</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$(x + 2)(x + 6)$</button>
+            <button type="button" data-choice="B">$(x + 1)(x + 12)$</button>
+            <button type="button" data-choice="C">$(x + 3)(x + 4)$</button>
+            <button type="button" data-choice="D">$(x - 3)(x - 4)$</button>
+          </div>
+          <p class="feedback">We need two numbers with sum $7$ and product $12$: $3$ and $4$, so $x^2 + 7x + 12 = (x + 3)(x + 4)$.</p>
+        </div>
+        <div class="q" data-answer="A">
+          <h4>3. Simplify $\sqrt{50}$.</h4>
+          <div class="options">
+            <button type="button" data-choice="A">$5\sqrt{2}$</button>
+            <button type="button" data-choice="B">$2\sqrt{5}$</button>
+            <button type="button" data-choice="C">$25\sqrt{2}$</button>
+            <button type="button" data-choice="D">$\sqrt{2} \cdot \sqrt{5}$</button>
+          </div>
+          <p class="feedback">$\sqrt{50} = \sqrt{25 \cdot 2} = 5\sqrt{2}$.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <h4>Toby Math</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../activities/index.html">Activities</a></li>
+          <li><a href="../search.html">Search</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competition Math</h4>
+        <ul>
+          <li><a href="../competition/index.html">Overview</a></li>
+          <li><a href="../competition/amc.html">AMC</a></li>
+          <li><a href="../competition/waterloo.html">Waterloo Contests</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>BC Courses &amp; Topics</h4>
+        <ul>
+          <li><a href="index.html">Curriculum Overview</a></li>
+          <li><a href="grade10.html">Math 10</a></li>
+          <li><a href="grade11.html">Math 11</a></li>
+          <li><a href="grade12.html">Math 12</a></li>
+          <li><a href="../topics/index.html">Topics Hub</a></li>
+          <li><a href="../cheatsheets/index.html">Formula Sheets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span data-year>2026</span> Toby. Built with plain HTML, CSS &amp; JavaScript.
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/quiz.js"></script>
+</body>
+</html>

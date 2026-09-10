@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search — Toby Math</title>
+  <meta name="description" content="Search all pages of Toby Math — competition guides and BC course notes.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Toby <span class="accent-dot">Math</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="competition/index.html">Competition Math</a>
+      <a href="courses/index.html">BC Courses</a>
+      <a href="activities/index.html">Activities</a>
+      <a href="topics/index.html">Topics</a>
+      <a href="about.html">About</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#263E;</button>
+      <a class="search-link" href="search.html" title="Search">&#128269;</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a> / Search</p>
+    <h1>Search</h1>
+    <p>Find a guide, a course note, or a topic across the whole site.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <form class="search-box" role="search" onsubmit="return false;">
+      <input id="search-input" type="search" placeholder="Try &quot;quadratics&quot;, &quot;AMC&quot;, &quot;logarithms&quot;…" autofocus>
+    </form>
+    <p id="search-status">Loading the index…</p>
+    <div id="search-results"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <h4>Toby Math</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="activities/index.html">Activities</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competition Math</h4>
+        <ul>
+          <li><a href="competition/index.html">Overview</a></li>
+          <li><a href="competition/amc.html">AMC</a></li>
+          <li><a href="competition/waterloo.html">Waterloo Contests</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>BC Courses &amp; Topics</h4>
+        <ul>
+          <li><a href="courses/index.html">Curriculum Overview</a></li>
+          <li><a href="courses/grade10.html">Math 10</a></li>
+          <li><a href="courses/grade11.html">Math 11</a></li>
+          <li><a href="courses/grade12.html">Math 12</a></li>
+          <li><a href="topics/index.html">Topics Hub</a></li>
+          <li><a href="cheatsheets/index.html">Formula Sheets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span data-year>2026</span> Toby. Built with plain HTML, CSS &amp; JavaScript.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
