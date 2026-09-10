@@ -62,18 +62,4 @@ toby-math/
 └── NOTES.md              # change log for this project
 ```
 
-## Run locally
-
-No build or install needed. Either:
-
-- Double-click **`start-server.bat`**, or
-- From the repo root run `python -m http.server 8000` and open http://localhost:8000, or
-- Open `index.html` directly in a browser (search needs a local server).
-
-## Deploy
-
-The site is fully static, so it deploys to **GitHub Pages**, Netlify, or any static host as-is.
-Source photos (`picture.png`) are gitignored to keep the repo light; the site itself only uses
-`images/hero.png`.
-
 Content © Toby. Built with plain HTML, CSS &amp; JavaScript.
