@@ -55,6 +55,10 @@
 - 首页数字条、amc/waterloo 页内引用此成绩
 - git 未提交(用户要求先不上传)
 
+### 10. README
+- 新建 `README.md`:站点简介、"竞赛亮点"真实成绩表、分区结构、技术栈(纯 HTML/CSS/JS)、本地运行方式、部署说明
+- 与 `cmo/comc/reflections` 同批,随推送同步
+
 ### 9. 招生官视角优化(P0/P1/P2)— 状态: done
 - **P0 定位与叙事**:
   - 重写 `about.html`:个人故事(Grade 11 BC、目标 math+CS)、数学兴趣、可核验成绩时间线(带日期)、"Leadership & community"(领导力 = 公开讲座 + 教授竞赛,不写"学校 top-10 目标")、双受众定位(学习者 / 申请评审)
