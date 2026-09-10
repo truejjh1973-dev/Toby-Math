@@ -31,3 +31,38 @@
 ### 5. (待定) AMC8 课件 — 状态: open
 - 用户提出新增 AMC8 课件内容,但具体选题/承接页面尚未确定,暂未实施
 - 待用户确认后再规划(可挂在 `competition/amc.html` 内,或新增 topics 页面)
+
+### 6. 首页布局改版(A 方案) — 状态: done
+- Hero 改为左右分栏:左 "Hi, I'm Toby" + 定位 + 双 CTA;右原公式卡 → 替换为 `images/hero.png`(自 `picture.png` 复制)
+- 新增数字条(strip):150/150 Cayley、top 5% AMC 10B、10/15 AIME II、top-10 学校目标
+- "What you will find here" 4 卡由 grid-3 改为 grid-2(2×2)
+- 新增 "Where to start" 三步路径(选目标 → 选年级 → 试一题)
+- 新增 `.hero-photo`/`.strip`/`.stat`/`.step-no` CSS,含深色与移动端适配
+- **后续调整**:用户要求把首页数字条(strip)移除以成绩统计,已删除该区块及对应 CSS(成绩内容仍保留在 `activities/results.html`)
+
+### 7. 竞赛内容扩充 — 状态: done
+- 新增页 `competition/comc.html`(COMC 加拿大公开赛,官方链接 cms.math.ca/competitions/comc/)
+- 新增页 `competition/cmo.html`(CMO 加拿大奥赛,官方链接 cms.math.ca/competitions/cmo/)
+- 竞赛中心改 grid-2 并加 COMC/CMO 卡片,meta 更新
+- `competition/amc.html` 新增 "Getting to the AIME" 章节 + MAA/AoPS 官方链接,并引用个人成绩
+- `competition/waterloo.html` 扩充 Fryer/Galois/Hypatia/Euler 表格 + CEMC 官方链接
+- 全站页脚 Competition Math 列加入 COMC / CMO 链接(三种前缀变体)
+- `data/index.json` 新增 COMC/CMO 条目,results 条目关键词/描述刷新
+
+### 8. 真实竞赛成绩 — 状态: done
+- `activities/results.html` 填入真实奖项表(按日期倒序):Cayley 150/150(2026-02-25)、AIME II 10/15(2026-02-11)、AMC 10B 123/150 top 5%(2025-11-13)、AMC 10A 111/150 top 10%(2025-11-05)、Fryer 36/40(2025-04-04)、Euclid 85/100 honour roll(2025-04-02)
+- 新增 "Next goal":Help my school become a top-10 school in Canada
+- 首页数字条、amc/waterloo 页内引用此成绩
+- git 未提交(用户要求先不上传)
+
+### 9. 招生官视角优化(P0/P1/P2)— 状态: done
+- **P0 定位与叙事**:
+  - 重写 `about.html`:个人故事(Grade 11 BC、目标 math+CS)、数学兴趣、可核验成绩时间线(带日期)、"Leadership & community"(领导力 = 公开讲座 + 教授竞赛,不写"学校 top-10 目标")、双受众定位(学习者 / 申请评审)
+  - 首页 hero 改为以人为中心:"I learn it. Then I teach it." + 首次 Euclid → perfect Cayley 叙事
+  - `activities/results.html`:删除 "Next goal top-10" 区块,改为 "Leadership & community"(公开讲座 + 继续教授竞赛)
+- **P1 原创与过程可见**:
+  - 新增 `reflections/` 板块 4 页:index(学习公开化)+ reading-notes + problem-of-the-season + my-own-problems,均为占位骨架
+  - 全站导航/页脚加入 Reflections 链接
+- **P2 双受众一致性**:About 与首页文案统一"既是学习资源也是诚实作品集"的口径
+- `data/index.json` 新增 4 条 reflections,刷新 about/results 描述
+- git 未提交
