@@ -256,6 +256,14 @@ html[data-theme="dark"] .about-photo { border-color: var(--line); }
 .card p { margin: 0 0 12px; color: var(--ink-soft); font-size: 0.95rem; }
 .card .meta { font-size: 0.82rem; color: var(--accent); font-weight: 600; }
 .card a.card-link { position: static; }
+.card .card-link {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  opacity: 0.7;
+  word-break: break-all;
+}
 
 .tag {
   display: inline-block;
