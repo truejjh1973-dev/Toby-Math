@@ -11,7 +11,10 @@ student in British Columbia. The site does two honest jobs at once:
 Everything on the site is dated and honestly kept — no retrofits. It is built for anyone preparing for
 math contests (AMC, AIME, Waterloo, COMC, CMO) as much as for the applications ahead.
 
-## Contest highlights (all real and dated)
+## Research Focus
+- Open problems in number theory and combinatorics
+- Explorations of mathematical structures and patterns
+- Documentation of thought processes and dead ends
 
 | Result | Score | Date |
 | --- | --- | --- |
