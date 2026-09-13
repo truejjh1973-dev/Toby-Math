@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2016 AMC 8 Timed Practice — Toby Math</title>
+  <meta name="description" content="2016 AMC 8 timed practice: 25 questions, 40 minutes, instant scoring and full solutions review. An unofficial practice test.">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <link rel="stylesheet" href="../exam.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] },
+      options: { enableMenu: false }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../../../index.html">Toby <span class="accent-dot">Math</span></a>
+    <nav class="nav">
+      <a href="../../../index.html">Home</a>
+      <a href="../../index.html">Competition Math</a>
+      <a href="../../../courses/index.html">BC Courses</a>
+      <a href="../../../activities/index.html">Activities</a>
+      <a href="../../../topics/index.html">Topics</a>
+      <a href="../../../reflections/index.html">Reflections</a>
+      <a href="../../../about.html">About</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#263E;</button>
+      <a class="search-link" href="../../../search.html" title="Search">&#128269;</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </div>
+</header>
+
+<div class="exam-head">
+  <div class="container exam-head-inner">
+    <div>
+      <p class="crumb"><a href="../../../index.html">Home</a> / <a href="../../index.html">Competition Math</a> / <a href="../../amc.html">AMC</a> / <a href="../index.html">AMC 8 Practice Tests</a> / 2016</p>
+      <h1>2016 AMC 8 — Timed Practice</h1>
+    </div>
+    <div class="exam-timer" id="exam-timer" role="timer" aria-label="Time remaining">
+      <span class="t-label">Time remaining</span><span id="timer-val">40:00</span>
+    </div>
+  </div>
+</div>
+
+<main class="exam-wrap">
+  <div class="container">
+
+    <!-- Instructions -->
+    <section id="view-instructions" aria-label="Test instructions">
+      <div class="exam-card">
+        <h2>2016 AMC 8 — Timed Practice</h2>
+        <p><strong>25 questions. 40 minutes. One answer per question.</strong></p>
+        <ul class="rules">
+          <li>Each correct answer earns 1 point. Incorrect and unanswered questions earn 0 points. There is no penalty for guessing.</li>
+          <li>No calculator. For this 2016 paper, scratch paper, graph paper, a ruler, a protractor, and an eraser are permitted.</li>
+          <li>Figures are not necessarily drawn to scale.</li>
+          <li>You may move between questions and change your answers until you submit or time expires. The timer cannot be paused.</li>
+          <li>Answers and explanations become available after submission.</li>
+          <li>This is an unofficial practice test; it does not produce an official AMC score.</li>
+        </ul>
+        <p id="load-status" class="notice" role="status">Loading test questions, diagrams, and the formula renderer…</p>
+        <p id="tab-taken" class="notice warn" hidden>This test is already open in another tab. Opening it here too will not give extra time — both tabs share the same deadline.
+          <span class="btn-row"><button type="button" class="btn btn-ghost btn-sm" id="btn-takeover">Continue here instead</button></span>
+        </p>
+        <p id="no-store" class="notice warn" hidden>Your browser storage is unavailable, so progress cannot be restored after a refresh. You may still take the test, but keep this page open until you submit.
+          <label class="ready-check" for="ack-nostore"><input type="checkbox" id="ack-nostore"> I understand my progress cannot be saved on this device.</label>
+        </p>
+        <label class="ready-check" for="ack"><input type="checkbox" id="ack"> I have read the instructions and am ready to begin.</label>
+        <div class="status-row">
+          <button type="button" class="btn btn-primary" id="btn-start" disabled>Start 40-Minute Test</button>
+          <span id="btn-resume-wrap" hidden><button type="button" class="btn btn-primary" id="btn-resume">Resume Test</button></span>
+          <span id="btn-viewresult-wrap" hidden><button type="button" class="btn btn-ghost" id="btn-viewresult">View Results</button></span>
+        </div>
+        <p id="last-score" class="q-meta" role="status"></p>
+        <p class="copyright">Problems: Mathematical Association of America, American Mathematics Competitions.</p>
+      </div>
+    </section>
+
+    <!-- Timed test -->
+    <section id="view-test" aria-label="Timed test" hidden>
+      <p id="time-warn" class="notice warn" role="status" hidden></p>
+      <div class="exam-layout">
+        <div class="exam-main">
+          <article class="exam-card" id="q-card" aria-live="off">
+            <h2 class="q-title" id="q-title" tabindex="-1">Question 1 of 25</h2>
+            <p class="q-meta" id="q-counts">Answered 0 / 25</p>
+            <div class="q-stem" id="q-stem"></div>
+            <fieldset class="opts" id="q-opts"></fieldset>
+            <div class="q-actions">
+              <button type="button" class="btn btn-ghost btn-sm" id="btn-clear">Clear Answer</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="btn-mark" aria-pressed="false">Mark for Review</button>
+            </div>
+            <div class="q-nav-bottom">
+              <button type="button" class="btn btn-ghost" id="btn-prev">Previous</button>
+              <button type="button" class="btn btn-ghost" id="btn-next">Next</button>
+            </div>
+            <p class="q-meta" id="save-state" role="status"></p>
+          </article>
+        </div>
+        <aside class="exam-side" id="exam-side">
+          <details id="nav-details" open>
+            <summary><strong>Questions (25)</strong></summary>
+            <div class="exam-card nav-panel" style="margin-top:12px;">
+              <p class="nav-counts" id="nav-counts"></p>
+              <div class="nav-grid" id="nav-grid" role="group" aria-label="Question navigator"></div>
+              <p class="nav-legend">⚑ = marked for review. Shaded = answered. No colours reveal correctness during the test.</p>
+              <button type="button" class="btn btn-danger" id="btn-submit">Submit Test</button>
+            </div>
+          </details>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Result + review -->
+    <section id="view-result" aria-label="Results and review" hidden>
+      <p id="result-banner" class="notice warn" role="status" hidden></p>
+      <div class="exam-card score-hero">
+        <h2>Results — 2016 AMC 8 Practice</h2>
+        <p class="score" id="score-line">Your score: 0 / 25</p>
+        <p class="q-meta">Practice score — this is an unofficial practice test, not an official AMC score.</p>
+        <div class="stat-grid">
+          <div class="stat"><div class="v" id="stat-correct">0</div><div class="k">Correct</div></div>
+          <div class="stat"><div class="v" id="stat-incorrect">0</div><div class="k">Incorrect</div></div>
+          <div class="stat"><div class="v" id="stat-unanswered">0</div><div class="k">Unanswered</div></div>
+          <div class="stat"><div class="v" id="stat-time">–</div><div class="k">Time used</div></div>
+          <div class="stat"><div class="v" id="stat-submitted">–</div><div class="k">Submitted</div></div>
+        </div>
+        <div class="status-row" style="justify-content:center;">
+          <a class="btn btn-ghost" href="#review-list" id="btn-review">Review Answers &amp; Solutions</a>
+          <button type="button" class="btn btn-ghost" id="btn-retake">Retake Test</button>
+          <a class="btn btn-ghost" href="../index.html">Back to AMC 8 Tests</a>
+        </div>
+      </div>
+
+      <div class="exam-card">
+        <h2>Answer key</h2>
+        <div class="ans-table-wrap">
+          <table class="ans-table">
+            <thead><tr><th scope="col">#</th><th scope="col">Your answer</th><th scope="col">Correct answer</th><th scope="col">Result</th></tr></thead>
+            <tbody id="ans-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="exam-card">
+        <h2>Answers &amp; solutions</h2>
+        <div class="filter-row" role="group" aria-label="Filter review questions">
+          <button type="button" data-filter="all" aria-pressed="true">All (25)</button>
+          <button type="button" data-filter="incorrect" aria-pressed="false">Incorrect</button>
+          <button type="button" data-filter="unanswered" aria-pressed="false">Unanswered</button>
+          <button type="button" data-filter="marked" aria-pressed="false">Marked</button>
+        </div>
+        <div id="review-list"></div>
+        <p class="copyright">Problems: Mathematical Association of America, American Mathematics Competitions.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<div class="modal-backdrop" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title">Submit this test?</h2>
+    <p id="submit-summary"></p>
+    <div class="btn-row">
+      <button type="button" class="btn btn-ghost" id="btn-keep">Keep Working</button>
+      <button type="button" class="btn btn-danger" id="btn-confirm-submit">Submit Now</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <h4>Toby Math</h4>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../about.html">About</a></li>
+          <li><a href="../../../activities/index.html">Activities</a></li>
+          <li><a href="../../../search.html">Search</a></li>
+          <li><a href="../../../reflections/index.html">Reflections</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Competition Math</h4>
+        <ul>
+          <li><a href="../../index.html">Overview</a></li>
+          <li><a href="../../amc.html">AMC</a></li>
+          <li><a href="../../waterloo.html">Waterloo Contests</a></li>
+          <li><a href="../../comc.html">COMC</a></li>
+          <li><a href="../../cmo.html">CMO</a></li>
+          <li><a href="../index.html">AMC 8 Practice Tests</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>BC Courses &amp; Topics</h4>
+        <ul>
+          <li><a href="../../../courses/index.html">Curriculum Overview</a></li>
+          <li><a href="../../../courses/grade10.html">Math 10</a></li>
+          <li><a href="../../../courses/grade11.html">Math 11</a></li>
+          <li><a href="../../../courses/grade12.html">Math 12</a></li>
+          <li><a href="../../../topics/index.html">Topics Hub</a></li>
+          <li><a href="../../../cheatsheets/index.html">Formula Sheets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span data-year>2026</span> Toby. Built with plain HTML, CSS &amp; JavaScript.
+    </div>
+  </div>
+</footer>
+
+<script src="../../../js/main.js"></script>
+<script src="exam.js"></script>
+</body>
+</html>

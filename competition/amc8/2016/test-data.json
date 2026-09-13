@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2016",
+ "title": "2016 AMC 8",
+ "contest": "AMC 8",
+ "year": 2016,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "The longest professional tennis match lasted a total of $11$ hours and $5$ minutes. How many minutes is that?",
+   "options": [
+    "$ 605 $",
+    "$ 655 $",
+    "$ 665 $",
+    "$ 1005 $",
+    "$ 1105 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 665 $",
+   "solution": "Convert the 11 hours into minutes, then include the remaining 5 minutes:\n\n$$11\\times60+5=665.$$\n\nThe published result is 665 minutes."
+  },
+  {
+   "number": 2,
+   "stem": "In rectangle $ABCD,$ $AB=6$ and $AD=8.$ Point $M$ is the midpoint of $\\overline{AD}.$ What is the area of $\\triangle AMC?$",
+   "options": [
+    "$ 12 $",
+    "$ 15 $",
+    "$ 18 $",
+    "$ 20 $",
+    "$ 24 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 12 $",
+   "solution": "The midpoint condition gives $AM=8/2=4$. Taking $AM$ as the triangle's base, its perpendicular height from $C$ is $6$. Therefore,\n\n$$[AMC]=\\frac12\\times4\\times6=12.$$"
+  },
+  {
+   "number": 3,
+   "stem": "Four students take an exam. Three of their scores are $70,$ $80,$ and $90.$ If the average of their four scores is $70,$ then what is the remaining score?",
+   "options": [
+    "$ 40 $",
+    "$ 50 $",
+    "$ 55 $",
+    "$ 60 $",
+    "$ 70 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 40 $",
+   "solution": "An average of 70 for four students requires a combined score of $4\\times70=280$. Remove the three given scores:\n\n$$280-(70+80+90)=40.$$"
+  },
+  {
+   "number": 4,
+   "stem": "When Cheenu was a boy he could run $15$ miles in $3$ hours and $30$ minutes. As an old man he can now walk $10$ miles in $4$ hours. How many minutes longer does it take for him to travel a mile now compared to when he was a boy?",
+   "options": [
+    "$ 6 $",
+    "$ 10 $",
+    "$ 15 $",
+    "$ 18 $",
+    "$ 30 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 10 $",
+   "solution": "Express both paces in minutes per mile. The childhood pace is $(3\\times60+30)/15=14$. The later walking pace is $(4\\times60)/10=24$. Their difference is $24-14=10$ minutes per mile."
+  },
+  {
+   "number": 5,
+   "stem": "The number $N$ is a two-digit number with the following properties:\n\n<ul> <li>When $N$ is divided by $9,$ the remainder is $1.$</li> <li>When $N$ is divided by $10,$ the remainder is $3.$</li> </ul>\n\nWhat is the remainder when $N$ is divided by $11?$",
+   "options": [
+    "$ 0 $",
+    "$ 2 $",
+    "$ 4 $",
+    "$ 5 $",
+    "$ 7 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 7 $",
+   "solution": "The remainder modulo 10 restricts the candidates to $13,23,33,43,53,63,73,83,93$. The source identifies $73$ as the only candidate satisfying the remainder condition modulo 9. Since $73=6\\times11+7$, the requested remainder is 7."
+  },
+  {
+   "number": 6,
+   "stem": "The following bar graph represents the length (in letters) of the names of $19$ people. What is the median length of these names?\n\n![Problem diagram](assets/6.svg)",
+   "options": [
+    "$ 3 $",
+    "$ 4 $",
+    "$ 5 $",
+    "$ 6 $",
+    "$ 7 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 4 $",
+   "solution": "For 19 ordered observations, the median occupies position 10. Accumulating the frequencies in the supplied graph places the tenth name in the four-letter group. Hence the median is 4 letters."
+  },
+  {
+   "number": 7,
+   "stem": "Which of the following numbers is not a perfect square?",
+   "options": [
+    "$ 1^{2016} $",
+    "$ 2^{2017} $",
+    "$ 3^{2018} $",
+    "$ 4^{2019} $",
+    "$ 5^{2020} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 2^{2017} $",
+   "solution": "Options A, C, and E have even exponents and therefore represent squares. Option D also represents a square because its base, 4, is already a square. The remaining choice is $2^{2017}$, option B."
+  },
+  {
+   "number": 8,
+   "stem": "Find the value of the expression $$ \\begin{gathered} 100 - 98 + 96 - 94 + 92 - 90 \\\\ {}+ \\cdots + 8 - 6 + 4 - 2. \\end{gathered} $$",
+   "options": [
+    "$ 20 $",
+    "$ 40 $",
+    "$ 50 $",
+    "$ 80 $",
+    "$ 100 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 50 $",
+   "solution": "Pair successive terms:\n\n$$(100-98)+(96-94)+\\cdots+(4-2).$$\n\nThe source counts 25 pairs, each contributing 2. Thus the expression equals $25\\times2=50$."
+  },
+  {
+   "number": 9,
+   "stem": "What is the sum of the distinct prime integer divisors of $2016?$",
+   "options": [
+    "$ 9 $",
+    "$ 12 $",
+    "$ 16 $",
+    "$ 49 $",
+    "$ 63 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 12 $",
+   "solution": "The published prime factorization is\n\n$$2016=2^5\\times3^2\\times7.$$\n\nCount each prime only once: $2+3+7=12$."
+  },
+  {
+   "number": 10,
+   "stem": "Suppose that $a \\ast b$ means $3a - b.$ What is the value of $x$ if $$2 \\ast (5 \\ast x) = 1?$$",
+   "options": [
+    "$ \\dfrac{1}{10} $",
+    "$ 2 $",
+    "$ \\dfrac{10}{3} $",
+    "$ 10 $",
+    "$ 14 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 10 $",
+   "solution": "Apply the custom operation first to the inner expression: $5\\ast x=15-x$. The outer expression becomes $6-(15-x)=x-9$. Consequently $x-9=1$, giving $x=10$."
+  },
+  {
+   "number": 11,
+   "stem": "Determine how many two-digit numbers satisfy the following property:\n\nWhen the number is added to the number obtained by reversing its digits, the sum is $132.$",
+   "options": [
+    "$ 5 $",
+    "$ 7 $",
+    "$ 9 $",
+    "$ 11 $",
+    "$ 12 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 7 $",
+   "solution": "Writing the digits as $a,b$, the required sum becomes\n\n$$(10a+b)+(10b+a)=11(a+b)=132.$$\n\nThus $a+b=12$. The source lists $(3,9),(4,8),(5,7),(6,6),(7,5),(8,4),(9,3)$, yielding seven qualifying numbers."
+  },
+  {
+   "number": 12,
+   "stem": "Jefferson Middle School has the same number of boys and girls. Three-fourths of the girls and two-thirds of the boys went on a field trip. What fraction of the students on the field trip were girls?",
+   "options": [
+    "$ \\dfrac{1}{2} $",
+    "$ \\dfrac{9}{17} $",
+    "$ \\dfrac{7}{13} $",
+    "$ \\dfrac{2}{3} $",
+    "$ \\dfrac{14}{15} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ \\dfrac{9}{17} $",
+   "solution": "Use the source's convenient model of 12 students of each sex. The trip then includes 9 girls and 8 boys. The required share is\n\n$$\\frac{9}{9+8}=\\frac9{17}.$$"
+  },
+  {
+   "number": 13,
+   "stem": "Two different numbers are randomly selected from the set $$\\{ - 2, -1, 0, 3, 4, 5\\}$$ and multiplied together. What is the probability that the product is $0?$",
+   "options": [
+    "$ \\dfrac{1}{6} $",
+    "$ \\dfrac{1}{5} $",
+    "$ \\dfrac{1}{4} $",
+    "$ \\dfrac{1}{3} $",
+    "$ \\dfrac{1}{2} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ \\dfrac{1}{3} $",
+   "solution": "There are $\\binom62=15$ unordered selections. A zero product requires choosing 0 together with one of the five other entries, giving five favorable selections. Therefore the probability is $5/15=1/3$."
+  },
+  {
+   "number": 14,
+   "stem": "Karl’s car uses a gallon of gas every $35$ miles, and his gas tank holds $14$ gallons when it is full.\n\nOne day, Karl started with a full tank of gas, drove $350$ miles, bought $8$ gallons of gas, and continued driving to his destination. When he arrived, his gas tank was half full. How many miles did Karl drive that day?",
+   "options": [
+    "$ 525 $",
+    "$ 560 $",
+    "$ 595 $",
+    "$ 665 $",
+    "$ 735 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 525 $",
+   "solution": "The initial 350 miles consume $350/35=10$ gallons, leaving 4. Buying 8 gallons raises the supply to 12. Finishing with 7 gallons means another 5 gallons were consumed, covering $5\\times35=175$ miles. Total travel is $350+175=525$ miles."
+  },
+  {
+   "number": 15,
+   "stem": "What is the largest power of $2$ that is a divisor of $13^4 - 11^4?$",
+   "options": [
+    "$ 8 $",
+    "$ 16 $",
+    "$ 32 $",
+    "$ 64 $",
+    "$ 128 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 32 $",
+   "solution": "Use the source's difference-of-squares factorization:\n\n$$13^4-11^4=(13^2+11^2)(13^2-11^2)=290\\times48=32\\times435.$$\n\nThe factor 435 is odd, so the full power of 2 dividing the expression is 32."
+  },
+  {
+   "number": 16,
+   "stem": "Annie and Bonnie are running laps around a $400$-meter oval track. They started together, but Annie has pulled ahead, because she runs $25\\%$ faster than Bonnie. How many laps will Annie have run when she first passes Bonnie?",
+   "options": [
+    "$ 1\\dfrac{1}{4} $",
+    "$ 3\\dfrac{1}{3} $",
+    "$ 4 $",
+    "$ 5 $",
+    "$ 25 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 5 $",
+   "solution": "In the time Bonnie completes one lap, Annie completes $1\\frac14$ laps. Each Bonnie lap therefore gives Annie a quarter-lap lead. A full-lap lead occurs after Bonnie's fourth lap, when Annie has completed five laps."
+  },
+  {
+   "number": 17,
+   "stem": "An ATM password at Fred’s Bank is composed of four digits from $0$ to $9,$ with repeated digits allowable. If no password may begin with the sequence $9,$ $1,$ $1,$ then how many passwords are possible?",
+   "options": [
+    "$ 30 $",
+    "$ 7290 $",
+    "$ 9000 $",
+    "$ 9990 $",
+    "$ 9999 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 9990 $",
+   "solution": "Allowing repetition and initial zeroes gives $10^4$ four-character passwords. The excluded prefix fixes three positions, leaving ten possibilities for the final digit. Subtracting these gives $10^4-10=9990$."
+  },
+  {
+   "number": 18,
+   "stem": "In an All-Area track meet, $216$ sprinters enter a $100$-meter dash competition. The track has $6$ lanes, so only $6$ sprinters can compete at a time. At the end of each race, the five non-winners are eliminated, and the winner will compete again in a later race.\n\nHow many races are needed to determine the champion sprinter?",
+   "options": [
+    "$ 36 $",
+    "$ 42 $",
+    "$ 43 $",
+    "$ 60 $",
+    "$ 72 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 43 $",
+   "solution": "One champion remains only after 215 competitors have been removed. Each race removes five sprinters, so the source obtains\n\n$$\\frac{215}{5}=43\\text{ races}.$$"
+  },
+  {
+   "number": 19,
+   "stem": "The sum of $25$ consecutive even integers is $10{,}000.$ What is the largest of these $25$ consecutive even integers?",
+   "options": [
+    "$ 360 $",
+    "$ 388 $",
+    "$ 412 $",
+    "$ 416 $",
+    "$ 424 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 424 $",
+   "solution": "The middle integer equals the average, $10000/25=400$. Twelve increments of size 2 separate it from the largest integer. Hence the largest is $400+12\\times2=424$."
+  },
+  {
+   "number": 20,
+   "stem": "The least common multiple of $a$ and $b$ is $12,$ and the least common multiple of $b$ and $c$ is $15.$ What is the least possible value of the least common multiple of $a$ and $c?$",
+   "options": [
+    "$ 20 $",
+    "$ 30 $",
+    "$ 60 $",
+    "$ 120 $",
+    "$ 180 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 20 $",
+   "solution": "Because $b$ divides both 12 and 15, the source considers $b=1$ and $b=3$. The first case forces $a=12,c=15$, giving least common multiple 60. In the second case, $a=4,c=5$ attain 20. The smaller possible result is 20."
+  },
+  {
+   "number": 21,
+   "stem": "A top hat contains $3$ red chips and $2$ green chips. Chips are drawn randomly, one at a time without replacement, until all $3$ of the reds are drawn or until both green chips are drawn. What is the probability that the $3$ reds are drawn?",
+   "options": [
+    "$ \\dfrac{3}{10} $",
+    "$ \\dfrac{2}{5} $",
+    "$ \\dfrac{1}{2} $",
+    "$ \\dfrac{3}{5} $",
+    "$ \\dfrac{2}{3} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ \\dfrac{2}{5} $",
+   "solution": "Imagine completing the entire random ordering of chips. Red is exhausted first exactly when the final chip is green. Of the $\\binom52=10$ possible green-position pairs, four include the final position. Thus the desired probability is $4/10=2/5$."
+  },
+  {
+   "number": 22,
+   "stem": "Rectangle $DEFA$ below is a $3 \\times 4$ rectangle with $DC=CB=BA=1.$ The area of the “bat wings” (shaded area) is\n\n![Problem diagram](assets/22.svg)",
+   "options": [
+    "$ 2 $",
+    "$ 2 \\dfrac{1}{2} $",
+    "$ 3 $",
+    "$ 3 \\dfrac{1}{2} $",
+    "$ 4 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 3 $",
+   "solution": "Follow the labels in the source diagram: $I$ and $G$ are the midpoints of $AD$ and $EF$, and $H=CF\\cap BE$.\n\n![Published solution diagram for Problem 22](assets/22sol.svg)\n\nTriangle $BCE$ has area $\\frac12(1)(4)=2$. Similar triangles $BCH$ and $EFH$ have base ratio $1:3$, so their heights satisfy $IH:HG=1:3$. As $IG=4$, this gives $IH=1$. Thus $[BCH]=\\frac12$, and one shaded wing has area $[ECH]=2-\\frac12=\\frac32$. Doubling for the symmetric wing gives area 3."
+  },
+  {
+   "number": 23,
+   "stem": "Two congruent circles centered at points $A$ and $B$ each pass through the other circle’s center. The line containing both $A$ and $B$ is extended to intersect the circles at points $C$ and $D.$\n\nThe circles intersect at two points, one of which is $E.$ What is the degree measure of $\\angle CED?$",
+   "options": [
+    "$ 90 $",
+    "$ 105 $",
+    "$ 120 $",
+    "$ 135 $",
+    "$ 150 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 120 $",
+   "solution": "Use the labeling of the published diagram below.\n\n![Published solution diagram for Problem 23](assets/23.svg)\n\nThe radii $AE,EB,AB$ are equal, so triangle $AEB$ is equilateral and $\\angle AEB=60^\\circ$. Since $DB$ and $AC$ are diameters, their angles at $E$ are right angles. The source combines these as\n\n$$\\angle CED=\\angle DEB+\\angle AEC-\\angle AEB=90^\\circ+90^\\circ-60^\\circ=120^\\circ.$$"
+  },
+  {
+   "number": 24,
+   "stem": "The digits $1,$ $2,$ $3,$ $4,$ and $5$ are each used once to write a five-digit number $PQRST.$ The three-digit number $PQR$ is divisible by $4,$ the three-digit number $QRS$ is divisible by $5,$ and the three-digit number $RST$ is divisible by $3.$ What is $P?$",
+   "options": [
+    "$ 1 $",
+    "$ 2 $",
+    "$ 3 $",
+    "$ 4 $",
+    "$ 5 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 1 $",
+   "solution": "Divisibility of $QRS$ by 5 fixes $S=5$. The source lists $QR=12,24,32$ as the possibilities imposed by divisibility of $PQR$ by 4. For $QR=12$ or $32$, no unused digit $T$ makes $25T$ divisible by 3. Thus $QR=24$; then $45T$ requires $T=3$. The remaining digit is $P=1$, producing $12453$."
+  },
+  {
+   "number": 25,
+   "stem": "A semicircle is inscribed in an isosceles triangle with base $16$ and height $15$ so that the diameter of the semicircle is contained in the base of the triangle as shown. What is the radius of the semicircle?\n\n![Problem diagram](assets/25.svg)",
+   "options": [
+    "$ 4 \\sqrt{3} $",
+    "$ \\dfrac{120}{17} $",
+    "$ 10 $",
+    "$ \\dfrac{17\\sqrt{2}}{2} $",
+    "$ \\dfrac{17\\sqrt{3}}{2} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ \\dfrac{120}{17} $",
+   "solution": "Follow the source diagram, where $O$ bisects the base and $OE$ is the radius to the point of tangency.\n\n![Published solution diagram for Problem 25](assets/25sol.svg)\n\nThe right half-triangle has legs 8 and 15, so its hypotenuse $BC$ is 17. Its area is $\\frac12(8)(15)=60$. As $OE\\perp BC$, the same area is $\\frac12(17)(OE)$. Consequently the radius is $OE=120/17$."
+  }
+ ]
+}
