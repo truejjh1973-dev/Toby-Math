@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2017",
+ "title": "2017 AMC 8",
+ "contest": "AMC 8",
+ "year": 2017,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "Which of the following values is largest?",
+   "options": [
+    "$ 2+0+1+7 $",
+    "$ 2 \\times 0 +1+7 $",
+    "$ 2+0 \\times 1 + 7 $",
+    "$ 2+0+1 \\times 7 $",
+    "$ 2 \\times 0 \\times 1 \\times 7 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 2+0+1+7 $",
+   "solution": "Evaluating each option with the usual order of operations gives $10,$ $8,$ $9,$ $9,$ and $0.$ The largest value is $10,$ option A."
+  },
+  {
+   "number": 2,
+   "stem": "Alicia, Brenda, and Colby were the candidates in a recent election for student president. The pie chart below shows how the votes were distributed among the three candidates. If Brenda received $36$ votes, then how many votes were cast all together?\n\n![Problem diagram](assets/2.svg)",
+   "options": [
+    "$ 70 $",
+    "$ 84 $",
+    "$ 100 $",
+    "$ 106 $",
+    "$ 120 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 120 $",
+   "solution": "Brenda's $36$ votes are $30\\%$ of the total shown in the pie chart, so $10\\%$ of the total is $12$ votes. The total is therefore $10\\times 12=120.$"
+  },
+  {
+   "number": 3,
+   "stem": "What is the value of the expression $\\sqrt{16\\sqrt{8\\sqrt{4}}}?$",
+   "options": [
+    "$ 4 $",
+    "$ 4\\sqrt{2} $",
+    "$ 8 $",
+    "$ 8\\sqrt{2} $",
+    "$ 16 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 8 $",
+   "solution": "Working from the inside out: $\\sqrt{4}=2,$ so $8\\sqrt{4}=16;$ $\\sqrt{16}=4,$ so $16\\cdot 4=64;$ and $\\sqrt{64}=8.$"
+  },
+  {
+   "number": 4,
+   "stem": "When $0.000315$ is multiplied by $7{,}928{,}564$ the product is closest to which of the following?",
+   "options": [
+    "$ 210 $",
+    "$ 240 $",
+    "$2{,}100$",
+    "$2{,}400$",
+    "$24{,}000$"
+   ],
+   "answer": "D",
+   "answerValue": "$2{,}400$",
+   "solution": "Round the factors to $(3\\times 10^{-4})(8\\times 10^{6})=24\\times 10^{2}=2{,}400,$ which is closest to option D."
+  },
+  {
+   "number": 5,
+   "stem": "What is the value of the expression $$\\dfrac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{1+2+3+4+5+6+7+8}?$$",
+   "options": [
+    "$ 1020 $",
+    "$ 1120 $",
+    "$ 1220 $",
+    "$ 2240 $",
+    "$ 3360 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 1120 $",
+   "solution": "The denominator is $1+2+\\cdots+8=36=2\\cdot 3\\cdot 6.$ Canceling those factors from the numerator leaves $4\\cdot 5\\cdot 7\\cdot 8=1120.$"
+  },
+  {
+   "number": 6,
+   "stem": "If the degree measures of the angles of a triangle are in the ratio $3:3:4,$ what is the degree measure of the largest angle of the triangle?",
+   "options": [
+    "$ 18 $",
+    "$ 36 $",
+    "$ 60 $",
+    "$ 72 $",
+    "$ 90 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 72 $",
+   "solution": "Write the angles as $3x,3x,4x$. Their sum is $10x=180$, so $x=18$ and the largest angle is $4x=72$."
+  },
+  {
+   "number": 7,
+   "stem": "Let $Z$ be a $6$-digit positive integer, such as $247247,$ whose first three digits are the same as its last three digits taken in the same order. Which of the following numbers must be a factor of $Z?$",
+   "options": [
+    "$ 11 $",
+    "$ 19 $",
+    "$ 101 $",
+    "$ 111 $",
+    "$ 1111 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 11 $",
+   "solution": "Write the repeated three-digit block as $n$; then $Z=1000n+n=1001n=7\\cdot 11\\cdot 13\\cdot n$, so $11$ must divide $Z$."
+  },
+  {
+   "number": 8,
+   "stem": "Malcolm wants to visit Isabella after school today and knows the street where she lives but doesn’t know her house number. She tells him, “My house number has two digits, and exactly three of the following four statements about it are true.”\n\n$(1)$ It is prime.\n\n$(2)$ It is even.\n\n$(3)$ It is divisible by $7.$\n\n$(4)$ One of its digits is $9.$\n\nThis information allows Malcolm to determine Isabella’s house number. What is its units digit?",
+   "options": [
+    "$ 4 $",
+    "$ 6 $",
+    "$ 7 $",
+    "$ 8 $",
+    "$ 9 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 8 $",
+   "solution": "Statements (1) and (2) cannot both hold, nor can (1) and (3), so (1) is the false statement. The number is then a two-digit multiple of $14$ containing the digit $9$: only $98$, whose units digit is $8$."
+  },
+  {
+   "number": 9,
+   "stem": "All of Marcy’s marbles are blue, red, green, or yellow. One third of her marbles are blue, one fourth of them are red, and six of them are green. What is the smallest number of yellow marbles that Marcy could have?",
+   "options": [
+    "$ 1 $",
+    "$ 2 $",
+    "$ 3 $",
+    "$ 4 $",
+    "$ 5 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 4 $",
+   "solution": "The total must be a multiple of $12$. With $12$ marbles only $5$ are neither blue nor red, but $6$ are green. With $24$ marbles there are $8$ blue and $6$ red, leaving $24-8-6-6=4$ yellow."
+  },
+  {
+   "number": 10,
+   "stem": "A box contains five cards, numbered $1,$ $2,$ $3,$ $4,$ and $5.$ Three cards are selected randomly without replacement from the box. What is the probability that $4$ is the largest value selected?",
+   "options": [
+    "$ \\dfrac{1}{10} $",
+    "$ \\dfrac{1}{5} $",
+    "$ \\dfrac{3}{10} $",
+    "$ \\dfrac{2}{5} $",
+    "$ \\dfrac{1}{2} $"
+   ],
+   "answer": "C",
+   "answerValue": "$ \\dfrac{3}{10} $",
+   "solution": "There are $\\binom53=10$ ways to choose $3$ cards. For $4$ to be the largest, the other two come from $\\{1,2,3\\}$ in $\\binom32=3$ ways, giving probability $\\frac{3}{10}$."
+  },
+  {
+   "number": 11,
+   "stem": "A square-shaped floor is covered with congruent square tiles. If the total number of tiles that lie on the two diagonals is $37,$ how many tiles cover the floor?",
+   "options": [
+    "$ 148 $",
+    "$ 324 $",
+    "$ 361 $",
+    "$ 1296 $",
+    "$ 1369 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 361 $",
+   "solution": "The two diagonals share the center tile, so each diagonal holds $(37+1)/2=19$ tiles. The floor is $19\\times 19=361$ tiles."
+  },
+  {
+   "number": 12,
+   "stem": "The smallest positive integer greater than $1$ that leaves a remainder of $1$ when divided by $4,$ $5,$ and $6$ lies between which of the following pairs of numbers?",
+   "options": [
+    "$2$ and $19$",
+    "$20$ and $39$",
+    "$40$ and $59$",
+    "$60$ and $79$",
+    "$80$ and $124$"
+   ],
+   "answer": "D",
+   "answerValue": "$60$ and $79$",
+   "solution": "The number is one more than a common multiple of $4,5,6$. Their least common multiple is $60$, giving $61$, which lies between $60$ and $79$."
+  },
+  {
+   "number": 13,
+   "stem": "Peter, Emma, and Kyler played chess with each other. Peter won $4$ games and lost $2$ games. Emma won $3$ games and lost $3$ games. If Kyler lost $3$ games, how many games did he win?",
+   "options": [
+    "$ 0 $",
+    "$ 1 $",
+    "$ 2 $",
+    "$ 3 $",
+    "$ 4 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 1 $",
+   "solution": "Every win is another player's loss, so total wins equal total losses: $2+3+3=8$. Kyler therefore won $8-4-3=1$ game."
+  },
+  {
+   "number": 14,
+   "stem": "Chloe and Zoe are both students in Ms. Demeanor’s math class. Last night they each solved half of the problems in their homework assignment alone and then solved the other half together. Chloe had correct answers to only $80\\%$ of the problems she solved alone, but overall $88\\%$ of her answers were correct. Zoe had correct answers to $90\\%$ of the problems she solved alone. What was Zoe’s overall percentage of correct answers?",
+   "options": [
+    "$ 89 $",
+    "$ 92 $",
+    "$ 93 $",
+    "$ 96 $",
+    "$ 98 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 93 $",
+   "solution": "Take $100$ problems. Chloe solved $40$ alone and $88$ in total, so $48$ correct answers came from joint work. Zoe solved $45$ alone, hence $45+48=93$ in total: $93\\%$."
+  },
+  {
+   "number": 15,
+   "stem": "In the arrangement of letters and numerals below, by how many different paths can one spell $\\mathrm{AMC8}$? Beginning at the $A$ in the middle, a path allows only moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in the picture.\n\n![Problem diagram](assets/15.svg)",
+   "options": [
+    "$ 8 $",
+    "$ 9 $",
+    "$ 12 $",
+    "$ 24 $",
+    "$ 36 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 24 $",
+   "solution": "From $A$ there are $4$ adjacent $M$'s; each $M$ reaches $3$ $C$'s; each $C$ reaches $2$ $8$'s. The total is $4\\cdot 3\\cdot 2=24$ paths."
+  },
+  {
+   "number": 16,
+   "stem": "In the figure shown below, choose point $D$ on side $BC$ so that $\\triangle ACD$ and $\\triangle ABD$ have equal perimeters. What is the area of $\\triangle ABD?$\n\n![Problem diagram](assets/16.svg)",
+   "options": [
+    "$ \\dfrac{3}{4} $",
+    "$ \\dfrac{3}{2} $",
+    "$ 2 $",
+    "$ \\dfrac{12}{5} $",
+    "$ \\dfrac{5}{2} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ \\dfrac{12}{5} $",
+   "solution": "Equal perimeters force $\\overline{CD}=3$ and $\\overline{BD}=2$. The two triangles share an altitude, so areas are proportional to bases: $[\\triangle ABD]=\\frac25[\\triangle ABC]=\\frac25\\cdot\\frac{3\\cdot 4}{2}=\\frac{12}{5}$.\n\n![Published solution diagram for Problem 16](assets/16sol.svg)"
+  },
+  {
+   "number": 17,
+   "stem": "Starting with some gold coins and some empty treasure chests, I tried to put $9$ gold coins in each treasure chest, but that left $2$ treasure chests empty. So instead I put $6$ gold coins in each treasure chest, but then I had $3$ gold coins left over. How many gold coins did I have?",
+   "options": [
+    "$ 9 $",
+    "$ 27 $",
+    "$ 45 $",
+    "$ 63 $",
+    "$ 81 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 45 $",
+   "solution": "With $n$ chests and $g$ coins, $9(n-2)=g$ and $6n+3=g$. Solving gives $n=7$, so $g=6\\cdot 7+3=45$."
+  },
+  {
+   "number": 18,
+   "stem": "In the non-convex quadrilateral $ABCD$ shown below, $\\angle BCD$ is a right angle, $AB=12,$ $BC=4,$ $CD=3,$ and $AD=13.$ What is the area of quadrilateral $ABCD?$\n\n![Problem diagram](assets/18.svg)",
+   "options": [
+    "$ 12 $",
+    "$ 24 $",
+    "$ 26 $",
+    "$ 30 $",
+    "$ 36 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 24 $",
+   "solution": "Right $\\triangle BCD$ gives $\\overline{BD}=5$; then $\\triangle BDA$ has sides $5,12,13$ and is right. Hence $[ABCD]=\\frac12\\cdot 12\\cdot 5-\\frac12\\cdot 4\\cdot 3=30-6=24$."
+  },
+  {
+   "number": 19,
+   "stem": "For any positive integer $M,$ the notation $M!$ denotes the product of the integers $1$ through $M.$ What is the largest integer $n$ for which $5^n$ is a factor of the sum: $$98!+99!+100!$$",
+   "options": [
+    "$ 23 $",
+    "$ 24 $",
+    "$ 25 $",
+    "$ 26 $",
+    "$ 27 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 26 $",
+   "solution": "Factoring gives $98!(1+99+100\\cdot 99)=98!\\cdot 100^{2}$. The exponent of $5$ in $98!$ is $\\lfloor 98/5\\rfloor+\\lfloor 98/25\\rfloor=19+3=22$, plus $4$ from $100^{2}$, for $22+4=26$."
+  },
+  {
+   "number": 20,
+   "stem": "An integer between $1000$ and $9999,$ inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?",
+   "options": [
+    "$ \\dfrac{14}{75} $",
+    "$ \\dfrac{56}{225} $",
+    "$ \\dfrac{107}{400} $",
+    "$ \\dfrac{7}{25} $",
+    "$ \\dfrac{9}{25} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ \\dfrac{56}{225} $",
+   "solution": "The units digit has $5$ odd choices and the thousands digit $8$ choices; then $8$ and $7$ choices remain: $5\\cdot 8\\cdot 8\\cdot 7=2{,}240$ numbers. The probability is $\\frac{2{,}240}{9{,}000}=\\frac{56}{225}$."
+  },
+  {
+   "number": 21,
+   "stem": "Suppose $a,$ $b,$ and $c$ are nonzero real numbers, and $a+b+c=0.$ What are the possible value(s) for $$\\dfrac{a}{|a|}+\\dfrac{b}{|b|}+\\dfrac{c}{|c|}+\\dfrac{abc}{|abc|}?$$",
+   "options": [
+    "$ 0 $",
+    "$1$ and $-1$",
+    "$2$ and $-2$",
+    "$0$, $2$, and $-2$",
+    "$0$, $1$, and $-1$"
+   ],
+   "answer": "A",
+   "answerValue": "$ 0 $",
+   "solution": "With sum zero and no zero terms, the signs are two positive and one negative, or the reverse. In the first case the sign fractions total $1$ while $abc/|abc|=-1$; in the second they total $-1$ and $+1$. Either way the expression equals $0$."
+  },
+  {
+   "number": 22,
+   "stem": "In the right triangle $ABC,$ $AC=12,$ $BC=5,$ and angle $C$ is a right angle. A semicircle is inscribed in the triangle as shown. What is the radius of the semicircle?\n\n![Problem diagram](assets/22.svg)",
+   "options": [
+    "$ \\dfrac{7}{6} $",
+    "$ \\dfrac{13}{5} $",
+    "$ \\dfrac{59}{18} $",
+    "$ \\dfrac{10}{3} $",
+    "$ \\dfrac{60}{13} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ \\dfrac{10}{3} $",
+   "solution": "Tangents from $B$ give $\\overline{BD}=\\overline{BC}=5$, so $\\overline{AD}=13-5=8$. With $\\overline{OD}\\perp\\overline{AB}$, $\\triangle ADO\\sim\\triangle ACB$ gives $\\frac{r}{8}=\\frac{5}{12}$, so $r=\\frac{10}{3}$."
+  },
+  {
+   "number": 23,
+   "stem": "Each day for four days, Linda traveled for one hour at a speed that resulted in her traveling one mile in an integer number of minutes. Each day after the first, her speed decreased so that the number of minutes to travel one mile increased by $5$ minutes over the preceding day. Each of the four days, her distance traveled was also an integer number of miles. What was the total number of miles for the four trips?",
+   "options": [
+    "$ 10 $",
+    "$ 15 $",
+    "$ 25 $",
+    "$ 50 $",
+    "$ 82 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 25 $",
+   "solution": "Minutes per mile must divide $60$; the only such four-term sequence spaced by $5$ is $5,10,15,20$. Total miles: $\\frac{60}{5}+\\frac{60}{10}+\\frac{60}{15}+\\frac{60}{20}=12+6+4+3=25$."
+  },
+  {
+   "number": 24,
+   "stem": "Mrs. Sanders has three grandchildren, who call her regularly. One calls her every three days, one calls her every four days, and one calls her every five days. All three called her on December $31,$ $2016.$ On how many days during the next year did she not receive a phone call from any of her grandchildren?",
+   "options": [
+    "$ 78 $",
+    "$ 80 $",
+    "$ 144 $",
+    "$ 146 $",
+    "$ 152 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 146 $",
+   "solution": "In each $60$-day block, inclusion-exclusion gives $20+15+12-5-4-3+1=36$ call days, hence $24$ quiet days. Six blocks give $144$, plus days $361$ and $362$ with no calls: $146$."
+  },
+  {
+   "number": 25,
+   "stem": "In the figure shown, $\\overline{US}$ and $\\overline{UT}$ are line segments each of length $2,$ and $m\\angle TUS = 60^\\circ.$\n\nArcs $\\overset{\\large\\frown}{TR}$ and $\\overset{\\large\\frown}{SR}$ are each one-sixth of a circle with radius $2.$ What is the area of the region shown?\n\n![Problem diagram](assets/25.svg)",
+   "options": [
+    "$ 3\\sqrt{3}-\\pi $",
+    "$ 4\\sqrt{3}-\\dfrac{4\\pi}{3} $",
+    "$ 2\\sqrt{3} $",
+    "$ 4\\sqrt{3}-\\dfrac{2\\pi}{3} $",
+    "$ 4+\\dfrac{4\\pi}{3} $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 4\\sqrt{3}-\\dfrac{4\\pi}{3} $",
+   "solution": "Extending the segments completes an equilateral triangle of side $4$; the region is that triangle minus two sixths of a radius-$2$ circle: $\\frac{4^{2}\\sqrt{3}}{4}-\\frac13\\pi\\cdot 2^{2}=4\\sqrt{3}-\\frac{4\\pi}{3}$.\n\n![Published solution diagram for Problem 25](assets/25sol.svg)"
+  }
+ ]
+}

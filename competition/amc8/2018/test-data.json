@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2018",
+ "title": "2018 AMC 8",
+ "contest": "AMC 8",
+ "year": 2018,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "An amusement park has a collection of scale models, with a ratio of $ 1: 20,$ of buildings and other sights from around the country. The height of the United States Capitol is $289$ feet. What is the height in feet of its replica at this park, rounded to the nearest whole number?",
+   "options": [
+    "$ 14 $",
+    "$ 15 $",
+    "$ 16 $",
+    "$ 18 $",
+    "$ 20 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 14 $",
+   "solution": "The replica is $\\frac{289}{20}=14.45$ feet tall, which rounds to $14$."
+  },
+  {
+   "number": 2,
+   "stem": "What is the value of the product $$\\begin{align*} &\\left(1+\\frac{1}{1}\\right)\\cdot\\left(1+\\frac{1}{2}\\right)\\\\ &\\quad{}\\cdot\\left(1+\\frac{1}{3}\\right)\\cdot\\left(1+\\frac{1}{4}\\right)\\\\ &\\quad{}\\cdot\\left(1+\\frac{1}{5}\\right)\\cdot\\left(1+\\frac{1}{6}\\right)? \\end{align*}$$",
+   "options": [
+    "$ \\dfrac{7}{6} $",
+    "$ \\dfrac{4}{3} $",
+    "$ \\dfrac{7}{2} $",
+    "$ 7 $",
+    "$ 8 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 7 $",
+   "solution": "Each factor is $1+\\frac1n=\\frac{n+1}{n}$, so the product telescopes: $\\frac21\\cdot\\frac32\\cdots\\frac76=7$."
+  },
+  {
+   "number": 3,
+   "stem": "Students Arn, Bob, Cyd, Dan, Eve, and Fon are arranged in that order in a circle. They start counting: Arn first, then Bob, and so forth. When the number contains a $7$ as a digit (such as $47$) or is a multiple of $7$ that person leaves the circle and the counting continues. Who is the last one present in the circle?",
+   "options": [
+    "$ \\text{Arn} $",
+    "$ \\text{Bob} $",
+    "$ \\text{Cyd} $",
+    "$ \\text{Dan} $",
+    "$ \\text{Eve} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ \\text{Dan} $",
+   "solution": "The first five elimination numbers are $7,14,17,21,27$, spoken by Arn, Cyd, Fon, Bob, and Eve in turn. Dan is the last one remaining."
+  },
+  {
+   "number": 4,
+   "stem": "The twelve-sided figure shown has been drawn on $1 \\text{ cm}\\times 1 \\text{ cm}$ graph paper. What is the area of the figure in $\\text{cm}^2?$\n\n![Problem diagram](assets/4.svg)",
+   "options": [
+    "$ 12 $",
+    "$ 12.5 $",
+    "$ 13 $",
+    "$ 13.5 $",
+    "$ 14 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 13 $",
+   "solution": "The figure is a central $3\\times 3$ square plus four triangles each of area $\\frac{2\\cdot 1}{2}=1$: total $9+4=13$.\n\n![Published solution diagram for Problem 4](assets/4sol.svg)"
+  },
+  {
+   "number": 5,
+   "stem": "What is the value of $$\\begin{align*} &1+3+5+\\cdots+2017+2019 \\\\ -&2-4-6-\\cdots-2016-2018? \\end{align*}$$",
+   "options": [
+    "$ -1010 $",
+    "$ -1009 $",
+    "$ 1008 $",
+    "$ 1009 $",
+    "$ 1010 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 1010 $",
+   "solution": "Regrouping as $1+(3-2)+(5-4)+\\cdots+(2019-2018)$ gives $1010$ ones, for a total of $1010$."
+  },
+  {
+   "number": 6,
+   "stem": "On a trip to the beach, Anh traveled $50$ miles on the highway and $10$ miles on a coastal access road. He drove three times as fast on the highway as on the coastal road. If Anh spent $30$ minutes driving on the coastal road, how many minutes did his entire trip take?",
+   "options": [
+    "$ 50 $",
+    "$ 70 $",
+    "$ 80 $",
+    "$ 90 $",
+    "$ 100 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 80 $",
+   "solution": "Coastal speed is $\\frac{10}{30}=\\frac13$ mile per minute, so highway speed is $1$ mile per minute: $50$ minutes for the $50$ highway miles. Total $50+30=80$ minutes."
+  },
+  {
+   "number": 7,
+   "stem": "The $5$-digit number $\\underline{2}$ $\\underline{0}$ $\\underline{1}$ $\\underline{8}$ $\\underline{U}$ is divisible by $9.$ What is the remainder when this number is divided by $8?$",
+   "options": [
+    "$ 1 $",
+    "$ 3 $",
+    "$ 5 $",
+    "$ 6 $",
+    "$ 7 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 3 $",
+   "solution": "The digit sum $11+U$ must be a multiple of $9$, so $U=7$. Then $20187=2523\\cdot 8+3$, giving remainder $3$."
+  },
+  {
+   "number": 8,
+   "stem": "Mr. Garcia asked the members of his health class how many days last week they exercised for at least $30$ minutes. The results are summarized in the following bar graph, where the heights of the bars represent the number of students.\n\n![Problem diagram](assets/8.svg)\n\nWhat was the mean number of days of exercise last week, rounded to the nearest hundredth, reported by the students in Mr. Garcia’s class?",
+   "options": [
+    "$ 3.50 $",
+    "$ 3.57 $",
+    "$ 4.36 $",
+    "$ 4.50 $",
+    "$ 5.00 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 4.36 $",
+   "solution": "The bar heights for $1$--$7$ days are $1,3,2,6,8,3,2$ ($25$ students), totaling $1+6+6+24+40+18+14=109$ days. The mean is $\\frac{109}{25}=4.36$."
+  },
+  {
+   "number": 9,
+   "stem": "Tyler is tiling the floor of his $12$ foot by $16$ foot living room. He plans to place one-foot by one-foot square tiles to form a border along the edges of the room and to fill in the rest of the floor with two-foot by two-foot square tiles. How many tiles will he use?",
+   "options": [
+    "$ 48 $",
+    "$ 87 $",
+    "$ 91 $",
+    "$ 96 $",
+    "$ 120 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 87 $",
+   "solution": "The border needs $16+12+16+12-4=52$ small tiles; the inner $10\\times 14$ rectangle needs $\\frac{10\\cdot 14}{4}=35$ large tiles: $52+35=87$ tiles."
+  },
+  {
+   "number": 10,
+   "stem": "The *harmonic mean* of a set of non-zero numbers is the reciprocal of the average of the reciprocals of the numbers. What is the harmonic mean of $1,$ $2,$ and $4?$",
+   "options": [
+    "$ \\dfrac{3}{7} $",
+    "$ \\dfrac{7}{12} $",
+    "$ \\dfrac{12}{7} $",
+    "$ \\dfrac{7}{4} $",
+    "$ \\dfrac{7}{3} $"
+   ],
+   "answer": "C",
+   "answerValue": "$ \\dfrac{12}{7} $",
+   "solution": "The average of the reciprocals is $\\frac{1+\\frac12+\\frac14}{3}=\\frac{7}{12}$; its reciprocal, the harmonic mean, is $\\frac{12}{7}$."
+  },
+  {
+   "number": 11,
+   "stem": "Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture, as shown. $$\\begin{array}{ccc} \\text{\\text{X}}&\\text{X}&\\text{X} \\\\ \\text{X}&\\text{X}&\\text{X} \\end{array}$$ If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column?",
+   "options": [
+    "$ \\dfrac{1}{3} $",
+    "$ \\dfrac{2}{5} $",
+    "$ \\dfrac{7}{15} $",
+    "$ \\dfrac{1}{2} $",
+    "$ \\dfrac{2}{3} $"
+   ],
+   "answer": "C",
+   "answerValue": "$ \\dfrac{7}{15} $",
+   "solution": "With probability $\\frac26$ Abby sits in a middle seat ($3$ of $5$ remaining seats adjacent) and $\\frac46$ in an outer seat ($2$ of $5$ adjacent): $\\frac13\\cdot\\frac35+\\frac23\\cdot\\frac25=\\frac{7}{15}$."
+  },
+  {
+   "number": 12,
+   "stem": "The clock in Sri’s car, which is not accurate, gains time at a constant rate. One day as he begins shopping he notes that his car clock and his watch (which is accurate) both say $12{:}00$ noon. When he is done shopping, his watch says $12{:}30$ and his car clock says $12{:}35.$ Later that day, Sri loses his watch. He looks at his car clock and it says $7{:}00.$ What is the actual time?",
+   "options": [
+    "$ 5:50 $",
+    "$ 6:00 $",
+    "$ 6:30 $",
+    "$ 6:55 $",
+    "$ 8:10 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 6:00 $",
+   "solution": "The clock runs $35$ minutes per $30$ real minutes. $420$ clock minutes after noon means $420\\cdot\\frac{30}{35}=360$ real minutes: $6{:}00$."
+  },
+  {
+   "number": 13,
+   "stem": "Laila took five math tests, each worth a maximum of $100$ points. Laila’s score on each test was an integer between $0$ and $100,$ inclusive. Laila received the same score on the first four tests, and she received a higher score on the last test. Her average score on the five tests was $82.$ How many values are possible for Laila’s score on the last test?",
+   "options": [
+    "$ 4 $",
+    "$ 5 $",
+    "$ 9 $",
+    "$ 10 $",
+    "$ 18 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 4 $",
+   "solution": "Total $410=4f+l$ with $f<l\\le 100$ forces $l\\equiv 2\\pmod 4$ and $l>82$: $86,90,94,98$ — $4$ possible values."
+  },
+  {
+   "number": 14,
+   "stem": "Let $N$ be the greatest five-digit number whose digits have a product of $120.$ What is the sum of the digits of $N?$",
+   "options": [
+    "$ 15 $",
+    "$ 16 $",
+    "$ 17 $",
+    "$ 18 $",
+    "$ 20 $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 18 $",
+   "solution": "Maximize digits left to right under product $120$: $8$, then $5$, then $3$, then $1,1$. So $N=85311$ with digit sum $8+5+3+1+1=18$."
+  },
+  {
+   "number": 15,
+   "stem": "In the diagram below, a diameter of each of the two smaller circles is a radius of the larger circle. If the two smaller circles have a combined area of $1$ square unit, then what is the area of the shaded region, in square units?\n\n![Problem diagram](assets/15.svg)",
+   "options": [
+    "$ \\dfrac{1}{4} $",
+    "$ \\dfrac{1}{3} $",
+    "$ \\dfrac{1}{2} $",
+    "$ 1 $",
+    "$ \\dfrac{\\pi}{2} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ 1 $",
+   "solution": "Each small radius is half the large radius, so the two small circles total half the large area: $A=2$. The shaded region is $2-1=1$."
+  },
+  {
+   "number": 16,
+   "stem": "Professor Chang has nine different language books lined up on a bookshelf: two Arabic, three German, and four Spanish. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together?",
+   "options": [
+    "$ 1440 $",
+    "$ 2880 $",
+    "$ 5760 $",
+    "$182{,}440$",
+    "$362{,}880$"
+   ],
+   "answer": "C",
+   "answerValue": "$ 5760 $",
+   "solution": "Treat each language block as one object: $5!$ orders, times $2!$ Arabic and $4!$ Spanish internal orders: $120\\cdot 24\\cdot 2=5760$."
+  },
+  {
+   "number": 17,
+   "stem": "Bella begins to walk from her house toward her friend Ella’s house. At the same time, Ella begins to ride her bicycle toward Bella’s house. They each maintain a constant speed, and Ella rides $5$ times as fast as Bella walks. The distance between their houses is $2$ miles, which is $10{,}560$ feet, and Bella covers $2 \\tfrac{1}{2}$ feet with each step. How many steps will Bella take by the time she meets Ella?",
+   "options": [
+    "$ 704 $",
+    "$ 845 $",
+    "$ 1056 $",
+    "$ 1760 $",
+    "$ 3520 $"
+   ],
+   "answer": "A",
+   "answerValue": "$ 704 $",
+   "solution": "Bella covers $\\frac16\\cdot 10560=1760$ feet; at $2\\frac12$ feet per step that is $\\frac{1760}{2.5}=704$ steps."
+  },
+  {
+   "number": 18,
+   "stem": "How many positive factors does $23{,}232$ have?",
+   "options": [
+    "$ 9 $",
+    "$ 12 $",
+    "$ 28 $",
+    "$ 36 $",
+    "$ 42 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 42 $",
+   "solution": "Prime factorization $23{,}232=2^6\\cdot 3\\cdot 11^2$ gives $(6+1)(1+1)(2+1)=42$ positive divisors."
+  },
+  {
+   "number": 19,
+   "stem": "In a sign pyramid a cell gets a “+” if the two cells below it have the same sign, and it gets a “-” if the two cells below it have different signs. The diagram below illustrates a sign pyramid with four levels. How many possible ways are there to fill the four cells in the bottom row to produce a “+” at the top of the pyramid?\n\n![Problem diagram](assets/19.svg)",
+   "options": [
+    "$ 2 $",
+    "$ 4 $",
+    "$ 8 $",
+    "$ 12 $",
+    "$ 16 $"
+   ],
+   "answer": "C",
+   "answerValue": "$ 8 $",
+   "solution": "Fixing one row, each choice for the cell below-left of its leftmost cell determines the whole row below. With the top fixed at $+$, each of the three rows below has $2$ possibilities: $2\\cdot 2\\cdot 2=8$."
+  },
+  {
+   "number": 20,
+   "stem": "In $\\triangle ABC,$ a point $E$ is on $\\overline{AB}$ with $AE=1$ and $EB=2.$ Point $D$ is on $\\overline{AC}$ so that $\\overline{DE} \\parallel \\overline{BC}$ and point $F$ is on $\\overline{BC}$ so that $\\overline{EF} \\parallel \\overline{AC}.$ What is the ratio of the area of $CDEF$ to the area of $\\triangle ABC?$\n\n![Problem diagram](assets/20.svg)",
+   "options": [
+    "$ \\dfrac{4}{9} $",
+    "$ \\dfrac{1}{2} $",
+    "$ \\dfrac{5}{9} $",
+    "$ \\dfrac{3}{5} $",
+    "$ \\dfrac{2}{3} $"
+   ],
+   "answer": "A",
+   "answerValue": "$ \\dfrac{4}{9} $",
+   "solution": "Similar triangles give $[ADE]=(\\frac13)^2t$ and $[EFB]=(\\frac23)^2t$; so $[CDEF]=t-\\frac{t}{9}-\\frac{4t}{9}=\\frac{4t}{9}$, a ratio of $\\frac49$."
+  },
+  {
+   "number": 21,
+   "stem": "How many positive three-digit integers have a remainder of $2$ when divided by $6,$ a remainder of $5$ when divided by $9,$ and a remainder of $7$ when divided by $11?$",
+   "options": [
+    "$ 1 $",
+    "$ 2 $",
+    "$ 3 $",
+    "$ 4 $",
+    "$ 5 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 5 $",
+   "solution": "Each remainder is $4$ less than its divisor, so $x+4$ is a multiple of $\\operatorname{lcm}(6,9,11)=198$. For three-digit $x$, $x+4\\in\\{198,396,594,792,990\\}$: $5$ integers."
+  },
+  {
+   "number": 22,
+   "stem": "Point $E$ is the midpoint of side $\\overline{CD}$ in square $ABCD,$ and $\\overline{BE}$ meets diagonal $\\overline{AC}$ at $F.$ The area of quadrilateral $AFED$ is $45.$ What is the area of $ABCD?$\n\n![Problem diagram](assets/22.svg)",
+   "options": [
+    "$ 100 $",
+    "$ 108 $",
+    "$ 120 $",
+    "$ 135 $",
+    "$ 144 $"
+   ],
+   "answer": "B",
+   "answerValue": "$ 108 $",
+   "solution": "Similarity gives $FH=CH=\\frac{s}{3}$, so $[EFC]=\\frac{s^{2}}{12}$ and $[AFED]=\\frac{s^{2}}{2}-\\frac{s^{2}}{12}=\\frac{5s^{2}}{12}=45$: hence $s^{2}=108$.\n\n![Published solution diagram for Problem 22](assets/22sol.svg)"
+  },
+  {
+   "number": 23,
+   "stem": "From a regular octagon, a triangle is formed by connecting three randomly chosen vertices of the octagon. What is the probability that at least one of the sides of the triangle is also a side of the octagon?\n\n![Problem diagram](assets/23.svg)",
+   "options": [
+    "$ \\dfrac{2}{7} $",
+    "$ \\dfrac{5}{42} $",
+    "$ \\dfrac{11}{14} $",
+    "$ \\dfrac{5}{7} $",
+    "$ \\dfrac{6}{7} $"
+   ],
+   "answer": "D",
+   "answerValue": "$ \\dfrac{5}{7} $",
+   "solution": "Count triangles with no adjacent vertices: gap sizes $x+y+z=5$ give $\\binom42=6$ per start vertex, i.e. $\\frac{8\\cdot 6}{3}=16$ triangles. Probability $1-\\frac{16}{\\binom83}=1-\\frac{16}{56}=\\frac57$."
+  },
+  {
+   "number": 24,
+   "stem": "In the cube $ABCDEFGH$ with opposite vertices $C$ and $E,$ $J$ and $I$ are the midpoints of edges $\\overline{FB}$ and $\\overline{HD},$ respectively. Let $R$ be the ratio of the area of the cross-section $EJCI$ to the area of one of the faces of the cube. What is $R^2?$\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$ \\dfrac{5}{4} $",
+    "$ \\dfrac{4}{3} $",
+    "$ \\dfrac{3}{2} $",
+    "$ \\dfrac{25}{16} $",
+    "$ \\dfrac{9}{4} $"
+   ],
+   "answer": "C",
+   "answerValue": "$ \\dfrac{3}{2} $",
+   "solution": "The cross-section is a rhombus with diagonals $s\\sqrt2$ and $s\\sqrt3$: $R=\\frac{\\frac12 s^{2}\\sqrt6}{s^{2}}=\\sqrt{\\frac32}$, so $R^{2}=\\frac32$."
+  },
+  {
+   "number": 25,
+   "stem": "How many perfect cubes lie between $2^8+1$ and $2^{18}+1,$ inclusive?",
+   "options": [
+    "$ 4 $",
+    "$ 9 $",
+    "$ 10 $",
+    "$ 57 $",
+    "$ 58 $"
+   ],
+   "answer": "E",
+   "answerValue": "$ 58 $",
+   "solution": "Since $6^{3}<257<7^{3}$ and $64^{3}<2^{18}+1<65^{3}$, the cubes run from $7^{3}$ to $64^{3}$: $64-7+1=58$."
+  }
+ ]
+}

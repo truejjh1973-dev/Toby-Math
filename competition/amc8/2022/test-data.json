@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2022",
+ "title": "2022 AMC 8",
+ "contest": "AMC 8",
+ "year": 2022,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "The Math Team designed a logo shaped like a multiplication symbol, shown below on a grid of $1$-inch squares. What is the area of the logo in square inches?\n\n![Problem diagram](assets/1.svg)",
+   "options": [
+    "$10$",
+    "$12$",
+    "$13$",
+    "$14$",
+    "$15$"
+   ],
+   "answer": "A",
+   "answerValue": "$10$",
+   "solution": "Five congruent tilted squares with diagonals $2$: each area $\\frac{2\\cdot 2}{2}=2$; total $5\\cdot 2=10$."
+  },
+  {
+   "number": 2,
+   "stem": "Consider these two operations: $$\\begin{align*} a\\,\\blacklozenge\\,b &= a^2 - b^2 \\\\ a \\star b &= (a - b)^2 \\end{align*}$$\n\nCompute the value:\n\n$$ (5\\,\\blacklozenge\\,3) \\star 6 $$",
+   "options": [
+    "$-20$",
+    "$4$",
+    "$16$",
+    "$100$",
+    "$220$"
+   ],
+   "answer": "D",
+   "answerValue": "$100$",
+   "solution": "$(5^{2}-3^{2})\\star 6=16\\star 6=(16-6)^{2}=100$, using $a\\,\\blacklozenge\\,b=a^{2}-b^{2}$."
+  },
+  {
+   "number": 3,
+   "stem": "When three positive integers $a,$ $b,$ and $c$ are multiplied together, their product is $100.$ Suppose $a < b < c.$ In how many ways can the numbers be chosen?",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "E",
+   "answerValue": "$4$",
+   "solution": "$a^{3}<100$ and $a\\mid 100$ give $a=1$ with $(2,50),(4,25),(5,20)$; $a=2$ with $(5,10)$; $a=4$ none: $4$ triples."
+  },
+  {
+   "number": 4,
+   "stem": "The letter **M** in the figure below is first reflected over the line $q$ and then reflected over the line $p.$ What is the resulting image?\n\n![Problem diagram](assets/4.svg)",
+   "options": [
+    "![Option A diagram](assets/4a.svg)",
+    "![Option B diagram](assets/4b.svg)",
+    "![Option C diagram](assets/4c.svg)",
+    "![Option D diagram](assets/4d.svg)",
+    "![Option E diagram](assets/4e.svg)"
+   ],
+   "answer": "E",
+   "answerValue": "![Option E diagram](assets/4e.svg)",
+   "solution": "Reflecting over diagonal $q$ then horizontal $p$ moves the letter below $p$, right of the vertical, matching choice E."
+  },
+  {
+   "number": 5,
+   "stem": "Anna and Bella are celebrating their birthdays together. Five years ago, when Bella turned $6$ years old, she received a newborn kitten as a birthday present. Today the sum of the ages of the two children and the kitten is $30$ years. How many years older than Bella is Anna?",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$"
+   ],
+   "answer": "C",
+   "answerValue": "$3$",
+   "solution": "Bella $11$, kitten $5$, Anna $30-11-5=14$: Anna is $3$ years older."
+  },
+  {
+   "number": 6,
+   "stem": "Three positive integers are equally spaced on a number line. The middle number is $15$ and the largest number is $4$ times the smallest number. What is the smallest of these three numbers?",
+   "options": [
+    "$4$",
+    "$5$",
+    "$6$",
+    "$7$",
+    "$8$"
+   ],
+   "answer": "C",
+   "answerValue": "$6$",
+   "solution": "The middle is the average: $\\frac{x+4x}{2}=15$, so $x=6$."
+  },
+  {
+   "number": 7,
+   "stem": "When the World Wide Web first became popular in the 1990s, download speeds reached a maximum of about $56$ kilobits per second. Approximately how many minutes would the download of a $4.2$-megabyte song have taken at that speed? (Note that there are $8000$ kilobits in a megabyte.)",
+   "options": [
+    "$0.6$",
+    "$10$",
+    "$1800$",
+    "$7200$",
+    "$36000$"
+   ],
+   "answer": "B",
+   "answerValue": "$10$",
+   "solution": "$4.2\\cdot 8000=33{,}600$ kilobits at $56$ per second: $600$ seconds $=10$ minutes."
+  },
+  {
+   "number": 8,
+   "stem": "What is the value of:\n\n$$ \\dfrac{1}{3} \\cdot \\dfrac{2}{4} \\cdot \\dfrac{3}{5} \\cdots \\dfrac{18}{20} \\cdot \\dfrac{19}{21} \\cdot \\dfrac{20}{22} $$",
+   "options": [
+    "$\\displaystyle \\dfrac{1}{462}$",
+    "$\\displaystyle \\dfrac{1}{231}$",
+    "$\\displaystyle \\dfrac{1}{132}$",
+    "$\\displaystyle \\dfrac{2}{213}$",
+    "$\\displaystyle \\dfrac{1}{22}$"
+   ],
+   "answer": "B",
+   "answerValue": "$\\displaystyle \\dfrac{1}{231}$",
+   "solution": "Canceling $3$ through $20$ leaves $\\frac{1\\cdot 2}{21\\cdot 22}=\\frac{1}{231}$."
+  },
+  {
+   "number": 9,
+   "stem": "A cup of boiling water ($212^\\circ$ F) is placed to cool in a room whose temperature remains constant at $68^\\circ$ F. Suppose the difference between the water temperature and the room temperature is halved every $5$ minutes. What is the water temperature, in degrees Fahrenheit, after $15$ minutes?",
+   "options": [
+    "$77$",
+    "$86$",
+    "$92$",
+    "$98$",
+    "$104$"
+   ],
+   "answer": "B",
+   "answerValue": "$86$",
+   "solution": "Difference $144$ halved thrice: $\\frac{144}{8}=18$; temperature $68+18=86$."
+  },
+  {
+   "number": 10,
+   "stem": "One sunny day, Ling decided to take a hike in the mountains. She left her house at $8$ a.m., drove at a constant speed of $45$ miles per hour, and arrived at the hiking trail at $10$ a.m. After hiking for $3$ hours, Ling drove home at a constant speed of $60$ miles per hour. Which of the following graphs best illustrates the distance between Ling’s car and her house over the course of her trip?",
+   "options": [
+    "![Option A diagram](assets/10a.svg)",
+    "![Option B diagram](assets/10b.svg)",
+    "![Option C diagram](assets/10c.svg)",
+    "![Option D diagram](assets/10d.svg)",
+    "![Option E diagram](assets/10e.svg)"
+   ],
+   "answer": "E",
+   "answerValue": "![Option E diagram](assets/10e.svg)",
+   "solution": "Trail $90$ miles away; flat $10$ AM--$1$ PM; $1.5$-hour return ends $2{:}30$ PM: choice E."
+  },
+  {
+   "number": 11,
+   "stem": "Henry the donkey has a very long piece of pasta. He takes a number of bites of pasta, each time eating $3$ inches of pasta from the middle of one piece. In the end, he has $10$ pieces of pasta whose total length is $17$ inches. How long, in inches, was the piece of pasta he started with?",
+   "options": [
+    "$34$",
+    "$38$",
+    "$41$",
+    "$44$",
+    "$47$"
+   ],
+   "answer": "D",
+   "answerValue": "$44$",
+   "solution": "$9$ bites remove $27$ inches; $27+17=44$ inches started."
+  },
+  {
+   "number": 12,
+   "stem": "The arrows on the two spinners shown below are spun. Let the number $N$ equal $10$ times the number on Spinner A, added to the number on Spinner B. What is the probability that $N$ is a perfect square number?\n\n![Problem diagram](assets/12.svg)",
+   "options": [
+    "$\\displaystyle \\dfrac{1}{16}$",
+    "$\\displaystyle \\dfrac{1}{8}$",
+    "$\\displaystyle \\dfrac{1}{4}$",
+    "$\\displaystyle \\dfrac{3}{8}$",
+    "$\\displaystyle \\dfrac{1}{2}$"
+   ],
+   "answer": "B",
+   "answerValue": "$\\displaystyle \\dfrac{1}{8}$",
+   "solution": "Tens from A, ones from B: $16$ outcomes; squares $64,81$ both occur: $\\frac{2}{16}=\\frac18$."
+  },
+  {
+   "number": 13,
+   "stem": "How many positive integers can fill the blank in the sentence below?\n\n“One positive integer is ___ more than twice another, and the sum of the two numbers is $28$”",
+   "options": [
+    "$6$",
+    "$7$",
+    "$8$",
+    "$9$",
+    "$10$"
+   ],
+   "answer": "D",
+   "answerValue": "$9$",
+   "solution": "$c=28-3x>0$ gives $x=1,\\dots,9$: $9$ possible values."
+  },
+  {
+   "number": 14,
+   "stem": "In how many ways can the letters in **BEEKEEPER** be rearranged so that two or more **E**’s do not appear together?",
+   "options": [
+    "$1$",
+    "$4$",
+    "$12$",
+    "$24$",
+    "$120$"
+   ],
+   "answer": "D",
+   "answerValue": "$24$",
+   "solution": "Only pattern $E\\_E\\_E\\_E\\_E$ with $4!$ orders of B,K,P,R: $24$."
+  },
+  {
+   "number": 15,
+   "stem": "Laszlo went online to shop for black pepper and found thirty different black pepper options varying in weight and price, shown in the scatter plot below. In ounces, what is the weight of the pepper that offers the lowest price per ounce?\n\n![Problem diagram](assets/15.svg)",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$"
+   ],
+   "answer": "C",
+   "answerValue": "$3$",
+   "solution": "Lowest price per ounce is at $3$ ounces ($\\approx 2.5/3$ per ounce)."
+  },
+  {
+   "number": 16,
+   "stem": "Four numbers are written in a row. The average of the first two is $21,$ the average of the middle two is $26,$ and the average of the last two is $30.$ What is the average of the first and last of the numbers?",
+   "options": [
+    "$24$",
+    "$25$",
+    "$26$",
+    "$27$",
+    "$28$"
+   ],
+   "answer": "B",
+   "answerValue": "$25$",
+   "solution": "$(a+b)+(c+d)-(b+c)=42+60-52=50$; average $25$."
+  },
+  {
+   "number": 17,
+   "stem": "If $n$ is an even positive integer, the double factorial notation $n!!$ represents the product of all the even integers from $2$ to $n.$ For example:\n\n$$ 8!! = 2 \\times 4 \\times 6 \\times 8 $$\n\nWhat is the units digit of the following sum?\n\n$$ \\begin{aligned} &2!! + 4!! + 6!! + \\cdots \\\\ &\\quad {}+ 2018!! + 2020!! + 2022!! \\end{aligned} $$",
+   "options": [
+    "$0$",
+    "$2$",
+    "$4$",
+    "$6$",
+    "$8$"
+   ],
+   "answer": "B",
+   "answerValue": "$2$",
+   "solution": "Terms from $10!!$ on end in $0$; $2+8+48+384=442$: units digit $2$."
+  },
+  {
+   "number": 18,
+   "stem": "The midpoints of the four sides of a rectangle are $(-3, 0),$ $(2, 0),$ $(5, 4),$ and $(0, 4).$ What is the area of the rectangle?",
+   "options": [
+    "$20$",
+    "$25$",
+    "$40$",
+    "$50$",
+    "$80$"
+   ],
+   "answer": "C",
+   "answerValue": "$40$",
+   "solution": "Midpoints form a $5\\times 4$ parallelogram of area $20$; the rectangle is double: $40$."
+  },
+  {
+   "number": 19,
+   "stem": "Mr. Ramos gave a test to his class of $20$ students. The dot plot below shows the distribution of test scores.\n\n![Problem diagram](assets/19.svg)\n\nLater Mr. Ramos discovered that there was a scoring error on one of the questions. He regraded the tests, awarding some of the students $5$ extra points, which increased the median test score to $85.$ What is the minimum number of students who received extra points?\n\n(Note that the median test score equals the average of the $2$ scores in the middle if the $20$ test scores are arranged in increasing order.)",
+   "options": [
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$",
+    "$6$"
+   ],
+   "answer": "C",
+   "answerValue": "$4$",
+   "solution": "Middle scores must both be $85$; with $7$ scores already $\\ge 85$, four $80$'s must be raised: minimum $4$."
+  },
+  {
+   "number": 20,
+   "stem": "The grid below is to be filled with integers in such a way that the sum of the numbers in each row and the sum of the numbers in each column are the same. Four numbers are missing. The number $x$ in the lower left corner is larger than the other three missing numbers. What is the smallest possible value of $x?$\n\n![Problem diagram](assets/20.svg)",
+   "options": [
+    "$-1$",
+    "$5$",
+    "$6$",
+    "$8$",
+    "$9$"
+   ],
+   "answer": "D",
+   "answerValue": "$8$",
+   "solution": "Common sum $12$; others $14-x,4-x,x-1$; $x>7$ gives minimum $8$."
+  },
+  {
+   "number": 21,
+   "stem": "Steph scored $15$ baskets out of $20$ attempts in the first half of a game, and $10$ baskets out of $10$ attempts in the second half. Candace took $12$ attempts in the first half and $18$ attempts in the second. In each half, Steph scored a higher percentage of baskets than Candace. Surprisingly they ended with the same overall percentage of baskets scored. How many more baskets did Candace score in the second half than in the first?\n\n![Problem diagram](assets/21.svg)",
+   "options": [
+    "$7$",
+    "$8$",
+    "$9$",
+    "$10$",
+    "$11$"
+   ],
+   "answer": "C",
+   "answerValue": "$9$",
+   "solution": "Candace also made $25$ baskets; $f<9,s<18$ force $f=8,s=17$: $s-f=9$."
+  },
+  {
+   "number": 22,
+   "stem": "A bus takes $2$ minutes to drive from one stop to the next, and waits $1$ minute at each stop to let passengers board. Zia takes $5$ minutes to walk from one bus stop to the next. As Zia reaches a bus stop, if the bus is at the previous stop or has already left the previous stop, then she will wait for the bus. Otherwise she will start walking toward the next stop. Suppose the bus and Zia start at the same time toward the library, with the bus $3$ stops behind. After how many minutes will Zia board the bus?\n\n![Problem diagram](assets/22.svg)",
+   "options": [
+    "$17$",
+    "$19$",
+    "$20$",
+    "$21$",
+    "$23$"
+   ],
+   "answer": "A",
+   "answerValue": "$17$",
+   "solution": "At $15$ min Zia reaches stop $6$ with the bus at stop $5$; she waits $2$ minutes: $17$."
+  },
+  {
+   "number": 23,
+   "stem": "A $\\bigtriangleup$ or $\\bigcirc$ is placed in each of the nine squares in a $3 \\times 3$ grid. Shown below is a sample configuration with three $\\bigtriangleup$’s in a line.\n\n![Problem diagram](assets/23.svg)\n\nHow many configurations will have three $\\bigtriangleup$’s in a line and three $\\bigcirc$’s in a line?",
+   "options": [
+    "$39$",
+    "$42$",
+    "$78$",
+    "$84$",
+    "$96$"
+   ],
+   "answer": "D",
+   "answerValue": "$84$",
+   "solution": "Only rows/columns work (diagonals leave no circle line): $6$ for $k=3,6$ and $36$ for $k=4,5$: $84$."
+  },
+  {
+   "number": 24,
+   "stem": "The figure below shows a polygon $ABCDEFGH,$ consisting of rectangles and right triangles. When cut out and folded on the dotted lines, the polygon forms a triangular prism. Suppose that:\n\n$$ AH = EF = 8 $$\n\nand\n\n$$ GH = 14. $$\n\nWhat is the volume of the prism?\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$112$",
+    "$128$",
+    "$192$",
+    "$240$",
+    "$288$"
+   ],
+   "answer": "C",
+   "answerValue": "$192$",
+   "solution": "Triangular base $6$-$8$ right: area $24$; prism length $8$: volume $192$."
+  },
+  {
+   "number": 25,
+   "stem": "A cricket randomly hops between $4$ leaves, on each turn hopping to one of the other $3$ leaves with equal probability. After $4$ hops, what is the probability that the cricket has returned to the leaf where it started?",
+   "options": [
+    "$\\displaystyle \\dfrac{2}{9}$",
+    "$\\displaystyle \\dfrac{19}{80}$",
+    "$\\displaystyle \\dfrac{20}{81}$",
+    "$\\displaystyle \\dfrac{1}{4}$",
+    "$\\displaystyle \\dfrac{7}{27}$"
+   ],
+   "answer": "E",
+   "answerValue": "$\\displaystyle \\dfrac{7}{27}$",
+   "solution": "Recurrence $p_{n+1}=\\frac{1-p_n}{3}$ gives $p_4=\\frac{7}{27}$."
+  }
+ ]
+}

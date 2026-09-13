@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2025",
+ "title": "2025 AMC 8",
+ "contest": "AMC 8",
+ "year": 2025,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "The eight-pointed star, shown in the figure below, is a popular quilting pattern. What percent of the entire $4$-by-$4$ grid is covered by the star?\n\n![Problem diagram](assets/1.svg)",
+   "options": [
+    "$40$",
+    "$50$",
+    "$60$",
+    "$75$",
+    "$80$"
+   ],
+   "answer": "B",
+   "answerValue": "$50$",
+   "solution": "By symmetry the whole star matches the top-left quarter, half shaded: $50\\%$.\n\n![Published solution diagram for Problem 1](assets/1-sol.svg)"
+  },
+  {
+   "number": 2,
+   "stem": "The table below shows the ancient Egyptian hieroglyphs that were used to represent different numbers.\n\n![Hieroglyph number table](assets/2-chart.svg)\n\nFor example, the number $32$ was represented by:\n\n![Example: 32 in hieroglyphs](assets/2-32.svg)\n\nWhat number was represented by the following combination of hieroglyphs?\n\n![Unknown number in hieroglyphs](assets/2-what.svg)",
+   "options": [
+    "$1{,}423$",
+    "$10{,}423$",
+    "$14{,}023$",
+    "$14{,}203$",
+    "$14{,}230$"
+   ],
+   "answer": "B",
+   "answerValue": "$10{,}423$",
+   "solution": "$1$ ten-thousand, $4$ hundreds, $2$ tens, $3$ ones: $10{}423$."
+  },
+  {
+   "number": 3,
+   "stem": "*Buffalo Shuffle-o* is a card game in which all the cards are distributed evenly among all players at the start of the game. When Annika and $3$ of her friends play *Buffalo Shuffle-o*, each player is dealt $15$ cards. Suppose $2$ more friends join the next game. How many cards will be dealt to each player?",
+   "options": [
+    "$8$",
+    "$9$",
+    "$10$",
+    "$11$",
+    "$12$"
+   ],
+   "answer": "C",
+   "answerValue": "$10$",
+   "solution": "$4\\cdot 15=60$ cards among $6$: $10$ each."
+  },
+  {
+   "number": 4,
+   "stem": "Lucius is counting backward by $7$s. His first three numbers are $100,$ $93,$ and $86.$ What is his $10$th number?",
+   "options": [
+    "$30$",
+    "$37$",
+    "$42$",
+    "$44$",
+    "$47$"
+   ],
+   "answer": "B",
+   "answerValue": "$37$",
+   "solution": "$100-9\\cdot 7=37$."
+  },
+  {
+   "number": 5,
+   "stem": "Betty drives a truck to deliver packages in a neighborhood whose street map is shown below. Betty starts at the factory (labeled $F$) and drives to location $A,$ then $B,$ then $C,$ before returning to $F.$ What is the shortest distance, in blocks, she can drive to complete the route?\n\n![Problem diagram](assets/5.svg)",
+   "options": [
+    "$20$",
+    "$22$",
+    "$24$",
+    "$26$",
+    "$28$"
+   ],
+   "answer": "C",
+   "answerValue": "$24$",
+   "solution": "Leg lengths $3,10,6,5$: total $24$ blocks."
+  },
+  {
+   "number": 6,
+   "stem": "Sekou writes the numbers $15,$ $16,$ $17,$ $18,$ $19.$ After he erases one of the numbers, the sum of the remaining four numbers is a multiple of $4.$ Which number did he erase?",
+   "options": [
+    "$15$",
+    "$16$",
+    "$17$",
+    "$18$",
+    "$19$"
+   ],
+   "answer": "C",
+   "answerValue": "$17$",
+   "solution": "Remainders $3,0,1,2,3$ sum to $1\\pmod 4$: erase the $1\\pmod 4$ number, $17$."
+  },
+  {
+   "number": 7,
+   "stem": "On the most recent exam in Prof. Xochi’s class,\n\n• $5$ students earned a score of at least $95\\%,$\n\n• $13$ students earned a score of at least $90\\%,$\n\n• $27$ students earned a score of at least $85\\%,$ and\n\n• $50$ students earned a score of at least $80\\%.$\n\nHow many students earned a score of at least $80\\%$ and less than $90\\%?$",
+   "options": [
+    "$8$",
+    "$14$",
+    "$22$",
+    "$37$",
+    "$45$"
+   ],
+   "answer": "D",
+   "answerValue": "$37$",
+   "solution": "$50-13=37$."
+  },
+  {
+   "number": 8,
+   "stem": "Isaiah cuts open a cardboard cube along some of its edges to form the flat shape shown, which has an area of $18$ square centimeters. What was the volume of the cube in cubic centimeters?\n\n![Problem diagram](assets/8.svg)",
+   "options": [
+    "$3\\sqrt{3}$",
+    "$6$",
+    "$9$",
+    "$6\\sqrt{3}$",
+    "$9\\sqrt{3}$"
+   ],
+   "answer": "A",
+   "answerValue": "$3\\sqrt{3}$",
+   "solution": "Each square area $3$, side $\\sqrt3$: volume $3\\sqrt3$."
+  },
+  {
+   "number": 9,
+   "stem": "Ningli looks at the $6$ pairs of numbers directly across from each other on a clock. She takes the average of each pair of numbers. What is the average of the resulting $6$ numbers?\n\n![Problem diagram](assets/9.svg)",
+   "options": [
+    "$5$",
+    "$6.5$",
+    "$8$",
+    "$9.5$",
+    "$12$"
+   ],
+   "answer": "B",
+   "answerValue": "$6.5$",
+   "solution": "Average of pair-averages equals overall average $\\frac{1+12}{2}=6.5$."
+  },
+  {
+   "number": 10,
+   "stem": "In the figure below, $ABCD$ is a rectangle with sides of length $AB = 5$ inches and $AD = 3$ inches. Rectangle $ABCD$ is rotated $90^\\circ$ clockwise around the midpoint of side $DC$ to give a second rectangle. What is the total area, in square inches, covered by the two overlapping rectangles?\n\n![Problem diagram](assets/10.svg)",
+   "options": [
+    "$21$",
+    "$22.25$",
+    "$23$",
+    "$23.75$",
+    "$25$"
+   ],
+   "answer": "D",
+   "answerValue": "$23.75$",
+   "solution": "Union $15+15-2.5^{2}=23.75$."
+  },
+  {
+   "number": 11,
+   "stem": "A *tetromino* consists of four squares connected along their edges. There are five possible tetromino shapes, $\\mathrm{I}$, $\\mathrm{O}$, $\\mathrm{L}$, $\\mathrm{T}$, and $\\mathrm{S}$, shown below, which can be rotated or flipped over. Three tetrominoes are used to completely cover a $3 \\times 4$ rectangle. At least one of the tiles is an $\\mathrm{S}$ tile. What are the other two tiles?\n\n![Problem diagram](assets/11.svg)",
+   "options": [
+    "$\\mathrm{I}$ and $\\mathrm{L}$",
+    "$\\mathrm{I}$ and $\\mathrm{T}$",
+    "$\\mathrm{L}$ and $\\mathrm{L}$",
+    "$\\mathrm{L}$ and $\\mathrm{S}$",
+    "$\\mathrm{O}$ and $\\mathrm{T}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\mathrm{L}$ and $\\mathrm{L}$",
+   "solution": "Placing S leaves room for two L tetrominoes.\n\n![Published solution diagram for Problem 11](assets/11-sol.svg)"
+  },
+  {
+   "number": 12,
+   "stem": "The region shown below consists of $24$ squares, each with side length $1$ centimeter. What is the area, in square centimeters, of the largest circle that can fit inside the region, possibly touching the boundaries?\n\n![Problem diagram](assets/12.svg)",
+   "options": [
+    "$3\\pi$",
+    "$4\\pi$",
+    "$5\\pi$",
+    "$6\\pi$",
+    "$8\\pi$"
+   ],
+   "answer": "C",
+   "answerValue": "$5\\pi$",
+   "solution": "Limiting corners at distance $\\sqrt{1^{2}+2^{2}}=\\sqrt5$: area $5\\pi$.\n\n![Published solution diagram for Problem 12](assets/12-sol.svg)"
+  },
+  {
+   "number": 13,
+   "stem": "Each of the even numbers $2,$ $4,$ $6,$ $\\dots,$ $50$ is divided by $7.$ The remainders are recorded. Which histogram displays the number of times each remainder occurs?",
+   "options": [
+    "![Option A diagram](assets/13a.svg)",
+    "![Option B diagram](assets/13b.svg)",
+    "![Option C diagram](assets/13c.svg)",
+    "![Option D diagram](assets/13d.svg)",
+    "![Option E diagram](assets/13e.svg)"
+   ],
+   "answer": "A",
+   "answerValue": "![Option A diagram](assets/13a.svg)",
+   "solution": "Cycle $2,4,6,1,3,5,0$ puts the taller bars on $2,4,6,1$: option A."
+  },
+  {
+   "number": 14,
+   "stem": "A number $N$ is inserted into the list $2,$ $6,$ $7,$ $7,$ $28.$ The mean is now twice as great as the median. What is $N?$",
+   "options": [
+    "$7$",
+    "$14$",
+    "$20$",
+    "$28$",
+    "$34$"
+   ],
+   "answer": "E",
+   "answerValue": "$34$",
+   "solution": "Median fixed at $7$; mean $14$ needs sum $84$: $N=84-50=34$."
+  },
+  {
+   "number": 15,
+   "stem": "Kei draws a $6$-by-$6$ grid. He colors $13$ of the unit squares silver and the remaining squares gold. Kei then folds the grid in half vertically, forming pairs of overlapping unit squares. Let $m$ and $M$ equal the least and greatest possible number of gold-on-gold pairs, respectively. What is the value of $m+M?$\n\n![Problem diagram](assets/15.svg)",
+   "options": [
+    "$12$",
+    "$14$",
+    "$16$",
+    "$18$",
+    "$20$"
+   ],
+   "answer": "C",
+   "answerValue": "$16$",
+   "solution": "Gold $23$ in $18$ pairs: min $5$ double-ups, max $11$ pairs: $5+11=16$."
+  },
+  {
+   "number": 16,
+   "stem": "Five distinct integers from $1$ to $10$ are chosen, and five distinct integers from $11$ to $20$ are chosen. No two numbers differ by exactly $10.$ What is the sum of the ten chosen numbers?",
+   "options": [
+    "$95$",
+    "$100$",
+    "$105$",
+    "$110$",
+    "$115$"
+   ],
+   "answer": "C",
+   "answerValue": "$105$",
+   "solution": "Higher choices exceed the unchosen lower sum by $50$: total $55+50=105$."
+  },
+  {
+   "number": 17,
+   "stem": "In the land of Markovia, there are three cities: $A,$ $B,$ and $C.$ There are $100$ people who live in $A,$ $120$ who live in $B,$ and $160$ who live in $C.$ Everyone works in one of the three cities, and a person may work in the same city where they live. In the figure below, an arrow pointing from one city to another is labeled with the fraction of people living in the first city who work in the second city. (For example, $\\frac{1}{4}$ of the people who live in $A$ work in $B.$) How many people work in $A?$\n\n![Problem diagram](assets/17.svg)",
+   "options": [
+    "$55$",
+    "$60$",
+    "$85$",
+    "$115$",
+    "$160$"
+   ],
+   "answer": "D",
+   "answerValue": "$115$",
+   "solution": "Work in A: $(100-25-20)+40+20=115$."
+  },
+  {
+   "number": 18,
+   "stem": "The circle shown below on the left has a radius of $1$ unit. The region between the circle and the inscribed square is shaded. In the circle shown on the right, one quarter of the region between the circle and the inscribed square is shaded. The shaded regions in the two circles have the same area. What is the radius $R,$ in units, of the circle on the right?\n\n![Problem diagram](assets/18.svg)",
+   "options": [
+    "$\\sqrt{2}$",
+    "$2$",
+    "$2\\sqrt{2}$",
+    "$4$",
+    "$4\\sqrt{2}$"
+   ],
+   "answer": "B",
+   "answerValue": "$2$",
+   "solution": "Right gap must be $4\\times$: $R^{2}=4$, $R=2$."
+  },
+  {
+   "number": 19,
+   "stem": "Two towns, $A$ and $B,$ are connected by a straight road, $15$ miles long. Traveling from town $A$ to town $B,$ the speed limit changes every $5$ miles: from $25$ to $40$ to $20$ miles per hour (mph). Two cars, one at town $A$ and one at town $B,$ start moving toward each other at the same time. They drive at exactly the speed limit in each portion of the road. How far from town $A,$ in miles, will the two cars meet?\n\n![Problem diagram](assets/19.svg)",
+   "options": [
+    "$7.75$",
+    "$8$",
+    "$8.25$",
+    "$8.5$",
+    "$8.75$"
+   ],
+   "answer": "D",
+   "answerValue": "$8.5$",
+   "solution": "A's car covers $7$ then half of $3$ more miles: $8.5$."
+  },
+  {
+   "number": 20,
+   "stem": "Sarika, Dev, and Rajiv are sharing a large block of cheese. They take turns cutting off half of what remains and eating it: first Sarika eats half of the cheese, then Dev eats half of the remaining half, then Rajiv eats half of what remains, then back to Sarika, and so on. They stop when the cheese is too small to see. About what fraction of the original block of cheese does Sarika eat in total?",
+   "options": [
+    "$\\dfrac{4}{7}$",
+    "$\\dfrac{3}{5}$",
+    "$\\dfrac{2}{3}$",
+    "$\\dfrac{3}{4}$",
+    "$\\dfrac{7}{8}$"
+   ],
+   "answer": "A",
+   "answerValue": "$\\dfrac{4}{7}$",
+   "solution": "Geometric series $\\frac{1/2}{1-1/8}=\\frac47$."
+  },
+  {
+   "number": 21,
+   "stem": "The Konigsberg School has assigned grades $1$ through $7$ to pods $A$ through $G,$ one grade per pod. Some of the pods are connected by walkways, as shown in the figure below. The school noticed that each pair of connected pods has been assigned grades differing by $2$ or more grade levels. (For example, grades $1$ and $2$ will not be in pods directly connected by a walkway.) What is the sum of the grade levels assigned to pods $C,$ $E,$ and $F?$\n\n![Problem diagram](assets/21.svg)",
+   "options": [
+    "$12$",
+    "$13$",
+    "$14$",
+    "$15$",
+    "$16$"
+   ],
+   "answer": "A",
+   "answerValue": "$12$",
+   "solution": "Both cases give $C+E+F=12$."
+  },
+  {
+   "number": 22,
+   "stem": "A classroom has a row of $35$ coat hooks. Paulina likes coats to be equally spaced, so that there is the same number of empty hooks before the first coat, after the last coat, and between every coat and the next one. Suppose there is at least $1$ coat and at least $1$ empty hook. How many different numbers of coats can satisfy Paulina’s pattern?",
+   "options": [
+    "$2$",
+    "$4$",
+    "$5$",
+    "$7$",
+    "$9$"
+   ],
+   "answer": "D",
+   "answerValue": "$7$",
+   "solution": "Factorizations of $36$ minus $1\\times 36,36\\times 1$: $9-2=7$."
+  },
+  {
+   "number": 23,
+   "stem": "How many four-digit numbers have all three of the following properties?\n\n(I) The tens digit and ones digit are both $9.$\n\n(II) The number is $1$ less than a perfect square.\n\n(III) The number is the product of exactly two prime numbers.",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "B",
+   "answerValue": "$1$",
+   "solution": "Only $a=60$ gives twin primes $59,61$: $1$ number."
+  },
+  {
+   "number": 24,
+   "stem": "In trapezoid $ABCD,$ angles $B$ and $C$ measure $60^\\circ$ and $AB = DC.$ The side lengths are all positive integers and the perimeter of $ABCD$ is $30$ units. How many non-congruent trapezoids satisfy all of these conditions?\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "E",
+   "answerValue": "$4$",
+   "solution": "Even $x$ with $y>0$: $x=2,4,6,8$ — $4$ trapezoids.\n\n![Published solution diagram for Problem 24](assets/24-sol.svg)"
+  },
+  {
+   "number": 25,
+   "stem": "Makayla finds all the possible ways to draw a path in a $5 \\times 5$ diamond-shaped grid. Each path starts at the bottom of the grid and ends at the top, always moving one unit northeast or northwest. She computes the area of the region between each path and the right side of the grid. Two examples are shown in the figures below. What is the sum of the areas determined by all possible paths?\n\n![Problem diagram](assets/25.svg)",
+   "options": [
+    "$2520$",
+    "$3150$",
+    "$3840$",
+    "$4730$",
+    "$5050$"
+   ],
+   "answer": "B",
+   "answerValue": "$3150$",
+   "solution": "Symmetry: $2X=25\\binom{10}{5}$, so $X=3150$."
+  }
+ ]
+}

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AMC 8 Practice Tests — Toby Math</title>
-  <meta name="description" content="Timed AMC 8 practice tests on Toby Math. Start with the 2016 paper: 25 questions, 40 minutes, instant scoring and solutions review.">
+  <meta name="description" content="Timed AMC 8 practice tests on Toby Math. Past papers from 2016 to 2026: 25 questions, 40 minutes, instant scoring and solutions review.">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="exam.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
@@ -33,28 +33,97 @@
   <div class="container">
     <p class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Competition Math</a> / <a href="../amc.html">AMC</a> / AMC 8 Practice Tests</p>
     <h1>AMC 8 Practice Tests</h1>
-    <p>Full past papers under real timed conditions — 25 questions, 40 minutes, no calculator.</p>
+    <p>Full past papers under real timed conditions — 25 questions, 40 minutes, no calculator. Newest first.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <div class="grid grid-2">
-      <div class="card">
+    <div class="grid grid-2" id="test-list">
+      <div class="card" style="grid-column:1/-1;border-left:4px solid var(--accent);">
+        <span class="meta">AMC 8 PRACTICE TESTS · NEWEST FIRST</span>
+        <h3>Jump to a paper</h3>
+        <div data-year-picker data-base="."></div>
+      </div>
+      <!-- 2021 is intentionally omitted: no paper is published for that year. -->
+      <div class="card" data-exam="amc8-2026" data-exam-year="2026">
+        <span class="meta">TIMED PRACTICE · 2026</span>
+        <h3>2026 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2026/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2025" data-exam-year="2025">
+        <span class="meta">TIMED PRACTICE · 2025</span>
+        <h3>2025 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2025/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2024" data-exam-year="2024">
+        <span class="meta">TIMED PRACTICE · 2024</span>
+        <h3>2024 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2024/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2023" data-exam-year="2023">
+        <span class="meta">TIMED PRACTICE · 2023</span>
+        <h3>2023 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2023/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2022" data-exam-year="2022">
+        <span class="meta">TIMED PRACTICE · 2022</span>
+        <h3>2022 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2022/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2020" data-exam-year="2020">
+        <span class="meta">TIMED PRACTICE · 2020</span>
+        <h3>2020 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2020/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2019" data-exam-year="2019">
+        <span class="meta">TIMED PRACTICE · 2019</span>
+        <h3>2019 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2019/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2018" data-exam-year="2018">
+        <span class="meta">TIMED PRACTICE · 2018</span>
+        <h3>2018 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2018/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2017" data-exam-year="2017">
+        <span class="meta">TIMED PRACTICE · 2017</span>
+        <h3>2017 AMC 8</h3>
+        <p class="test-meta">25 questions · 40 minutes · No calculator</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2017/index.html">View Instructions</a></p>
+      </div>
+      <div class="card" data-exam="amc8-2016" data-exam-year="2016">
         <span class="meta">TIMED PRACTICE · 2016</span>
         <h3>2016 AMC 8</h3>
         <p class="test-meta">25 questions · 40 minutes · No calculator</p>
-        <p>Read the rules, start the 40-minute clock, and review every answer with full solutions afterwards. Your progress is saved on this device.</p>
-        <p><a class="btn btn-primary" href="2016/index.html" style="background:var(--accent);color:#fff;">Take the 2016 Test</a></p>
-        <p class="copyright" style="font-size:0.82rem;color:var(--ink-soft);">Problems: Mathematical Association of America, American Mathematics Competitions. Unofficial practice test.</p>
+        <p class="exam-status" data-status></p>
+        <p class="status-row" data-actions><a class="btn btn-primary" style="background:var(--accent);color:#fff;" href="2016/index.html">View Instructions</a></p>
       </div>
       <div class="card">
         <span class="meta">HOW IT WORKS</span>
         <h3>Timed rules</h3>
-        <p>Correct answers earn 1 point each; wrong or blank answers earn 0. No penalty for guessing. The timer cannot be paused, and refreshing never resets the deadline.</p>
+        <p>Correct answers earn 1 point each; wrong or blank answers earn 0. No penalty for guessing. The timer cannot be paused, and refreshing never resets the deadline. Aids allowed follow each paper's official cover.</p>
         <p><a class="btn btn-ghost" href="../amc.html" style="border:1px solid var(--line);color:var(--ink);">AMC scoring guide</a></p>
       </div>
     </div>
+    <p class="copyright" style="font-size:0.82rem;color:var(--ink-soft);">Problems: Mathematical Association of America, American Mathematics Competitions. Unofficial practice tests.</p>
   </div>
 </section>
 
@@ -101,5 +170,8 @@
 </footer>
 
 <script src="../../js/main.js"></script>
+<script src="years.js"></script>
+<script src="year-picker.js"></script>
+<script src="list.js"></script>
 </body>
 </html>

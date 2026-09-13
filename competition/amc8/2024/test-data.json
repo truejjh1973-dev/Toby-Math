@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2024",
+ "title": "2024 AMC 8",
+ "contest": "AMC 8",
+ "year": 2024,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "What is the ones digit of $$\\begin{align*} & 222,222 - 22,222 - 2,222 \\\\ &- 222 - 22 - 2? \\end{align*}$$",
+   "options": [
+    "$0$",
+    "$2$",
+    "$4$",
+    "$6$",
+    "$8$"
+   ],
+   "answer": "B",
+   "answerValue": "$2$",
+   "solution": "Modulo $10$: $2-2-2-2-2-2=-8\\equiv 2$."
+  },
+  {
+   "number": 2,
+   "stem": "What is the value of this expression in decimal form? $$ \\frac{44}{11} + \\frac{110}{44} + \\frac{44}{1100} $$",
+   "options": [
+    "$6.4$",
+    "$6.504$",
+    "$6.54$",
+    "$6.9$",
+    "$6.94$"
+   ],
+   "answer": "C",
+   "answerValue": "$6.54$",
+   "solution": "$4+2.5+0.04=6.54$."
+  },
+  {
+   "number": 3,
+   "stem": "Four squares of side length $4,$ $7,$ $9,$ and $10$ units are arranged in increasing size order so that their left edges and bottom edges align. The squares alternate shaded and unshaded, as shown in the figure. What is the area of the visible shaded region in square units?\n\n![Problem diagram](assets/3.svg)",
+   "options": [
+    "$42$",
+    "$45$",
+    "$49$",
+    "$50$",
+    "$52$"
+   ],
+   "answer": "E",
+   "answerValue": "$52$",
+   "solution": "Visible shaded $10^{2}-9^{2}+7^{2}-4^{2}=100-81+49-16=52$."
+  },
+  {
+   "number": 4,
+   "stem": "When Yunji added all the integers from $1$ to $9,$ she mistakenly left out a number. Her incorrect sum turned out to be a square number. Which number did Yunji leave out?",
+   "options": [
+    "$5$",
+    "$6$",
+    "$7$",
+    "$8$",
+    "$9$"
+   ],
+   "answer": "E",
+   "answerValue": "$9$",
+   "solution": "Total $45$; largest square below is $36$: left out $45-36=9$."
+  },
+  {
+   "number": 5,
+   "stem": "Aaliyah rolls two standard $6$-sided dice. She notices that the product of the two numbers rolled is a multiple of $6.$ Which of the following integers *cannot* be the sum of the two numbers?",
+   "options": [
+    "$5$",
+    "$6$",
+    "$7$",
+    "$8$",
+    "$9$"
+   ],
+   "answer": "B",
+   "answerValue": "$6$",
+   "solution": "Sums $5,7,8,9$ occur with products divisible by $6$; no pair summing to $6$ does."
+  },
+  {
+   "number": 6,
+   "stem": "Sergei skated around an ice rink, gliding along different paths. The marked lines in the figures below show four of the paths labeled P, Q, R, and S. What is the sorted order of the four paths from shortest to longest?\n\n![Problem diagram](assets/6.svg)",
+   "options": [
+    "P, Q, R, S",
+    "P, R, S, Q",
+    "Q, S, P, R",
+    "R, P, S, Q",
+    "R, S, P, Q"
+   ],
+   "answer": "D",
+   "answerValue": "R, P, S, Q",
+   "solution": "Chords beat arcs (R shortest); Q longest; S's diagonal exceeds P's side: R, P, S, Q."
+  },
+  {
+   "number": 7,
+   "stem": "A $3 \\times 7$ rectangle is covered without overlap by $3$ shapes of tiles: $2 \\times 2,$ $1 \\times 4,$ and $1 \\times 1,$ shown below. What is the minimum possible number of $1 \\times 1$ tiles used?\n\n![Problem diagram](assets/7.svg)",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$"
+   ],
+   "answer": "E",
+   "answerValue": "$5$",
+   "solution": "Area forces $1$ or $5$ unit tiles; one is impossible by row parity; $5$ attainable.\n\n![Published solution diagram for Problem 7](assets/7sol.svg)"
+  },
+  {
+   "number": 8,
+   "stem": "On Monday Taye has $\\$2.$ Every day, he either gains $\\$3$ or doubles the amount of money he had on the previous day. How many different dollar amounts could Taye have on Thursday, $3$ days later?",
+   "options": [
+    "$3$",
+    "$4$",
+    "$5$",
+    "$6$",
+    "$7$"
+   ],
+   "answer": "D",
+   "answerValue": "$6$",
+   "solution": "Reachable sets $\\{5,4\\}\\to\\{7,8,10\\}\\to 6$ distinct amounts."
+  },
+  {
+   "number": 9,
+   "stem": "All of the marbles in Maria’s collection are red, green, or blue. Maria has half as many red marbles as green marbles and twice as many blue marbles as green marbles. Which of the following could be the total number of marbles in Maria’s collection?",
+   "options": [
+    "$24$",
+    "$25$",
+    "$26$",
+    "$27$",
+    "$28$"
+   ],
+   "answer": "E",
+   "answerValue": "$28$",
+   "solution": "Total $r+2r+4r=7r$: only $28$."
+  },
+  {
+   "number": 10,
+   "stem": "In January $1980$ the Mauna Loa Observatory recorded carbon dioxide $\\mathrm{CO}_{2}$ levels of $338$ ppm (parts per million). Over the years the average $\\mathrm{CO}_{2}$ reading has increased by about $1.515$ ppm each year. What is the expected $\\mathrm{CO}_{2}$ level in ppm in January $2030?$ Round your answer to the nearest integer.",
+   "options": [
+    "$399$",
+    "$414$",
+    "$420$",
+    "$444$",
+    "$459$"
+   ],
+   "answer": "B",
+   "answerValue": "$414$",
+   "solution": "$338+50\\cdot 1.515\\approx 338+76=414$."
+  },
+  {
+   "number": 11,
+   "stem": "The coordinates of $\\bigtriangleup ABC$ are $A(5, 7),$ $B(11, 7),$ and $C(3, y),$ with $y > 7.$ The area of $\\bigtriangleup ABC$ is $12.$ What is the value of $y?$\n\n![Problem diagram](assets/11.svg)",
+   "options": [
+    "$8$",
+    "$9$",
+    "$10$",
+    "$11$",
+    "$12$"
+   ],
+   "answer": "D",
+   "answerValue": "$11$",
+   "solution": "Base $6$, height $\\frac{2\\cdot 12}{6}=4$: $y=7+4=11$."
+  },
+  {
+   "number": 12,
+   "stem": "Rohan keeps a total of $90$ guppies in $4$ fish tanks.\n\n• There is $1$ more guppy in the $2$nd tank than in the $1$st tank.\n\n• There are $2$ more guppies in the $3$rd tank than in the $2$nd tank.\n\n• There are $3$ more guppies in the $4$th tank than in the $3$rd tank.\n\nHow many guppies are in the $4$th tank?",
+   "options": [
+    "$20$",
+    "$21$",
+    "$23$",
+    "$24$",
+    "$26$"
+   ],
+   "answer": "E",
+   "answerValue": "$26$",
+   "solution": "$x+(x+1)+(x+3)+(x+6)=90$ gives $x=20$: fourth tank $26$."
+  },
+  {
+   "number": 13,
+   "stem": "Buzz Bunny is hopping up and down a set of stairs, one step at a time. In how many ways can Buzz start on the ground, make a sequence of $6$ hops, and end up back on the ground? (For example, one sequence of hops is up-up-down-down-up-down.)",
+   "options": [
+    "$4$",
+    "$5$",
+    "$6$",
+    "$8$",
+    "$12$"
+   ],
+   "answer": "B",
+   "answerValue": "$5$",
+   "solution": "Up-down sequences never dipping below ground (Catalan): $5$."
+  },
+  {
+   "number": 14,
+   "stem": "The one-way routes connecting towns $A,$ $M,$ $C,$ $X,$ $Y,$ and $Z$ are shown in the figure below (not drawn to scale). The distances in kilometers along each route are marked. Traveling along these routes, what is the shortest distance from $A$ to $Z$ in kilometers?\n\n![Problem diagram](assets/14.svg)",
+   "options": [
+    "$28$",
+    "$29$",
+    "$30$",
+    "$31$",
+    "$32$"
+   ],
+   "answer": "A",
+   "answerValue": "$28$",
+   "solution": "Shortest distances propagate town by town: $Z$ via $C$ totals $28$."
+  },
+  {
+   "number": 15,
+   "stem": "Let the letters $F,$ $L,$ $Y,$ $B,$ $U,$ $G$ represent distinct digits. Suppose $\\text{FLYFLY}$ is the greatest number that satisfies the equation $$ 8 \\cdot \\text{FLYFLY} = \\text{BUGBUG}. $$ What is the value of $\\text{FLY} + \\text{BUG}?$",
+   "options": [
+    "$1089$",
+    "$1098$",
+    "$1107$",
+    "$1116$",
+    "$1125$"
+   ],
+   "answer": "C",
+   "answerValue": "$1107$",
+   "solution": "$8\\cdot\\text{FLY}=\\text{BUG}$ with distinct digits forces $\\text{FLY}=123$: sum $123+984=1107$."
+  },
+  {
+   "number": 16,
+   "stem": "Minh enters the numbers $1$ through $81$ into the cells of a $9 \\times 9$ grid in some order. She calculates the product of the numbers in each row and column. What is the least number of rows and columns that could have a product divisible by $3?$",
+   "options": [
+    "$8$",
+    "$9$",
+    "$10$",
+    "$11$",
+    "$12$"
+   ],
+   "answer": "D",
+   "answerValue": "$11$",
+   "solution": "Multiples of $3$ must fit in $rc$ cells with $r+c$ minimized: $rc\\ge 27$ forces $r+c\\ge 11$, attainable with $5+6$."
+  },
+  {
+   "number": 17,
+   "stem": "A chess king is said to *attack* all the squares one step away from it, horizontally, vertically, or diagonally. For instance, a king on the center square of a $3 \\times 3$ grid attacks all $8$ other squares, as shown below. Suppose a white king and a black king are placed on different squares of a $3 \\times 3$ grid so that they do not attack each other. In how many ways can this be done?\n\n![Problem diagram](assets/17.svg)",
+   "options": [
+    "$20$",
+    "$24$",
+    "$27$",
+    "$28$",
+    "$32$"
+   ],
+   "answer": "E",
+   "answerValue": "$32$",
+   "solution": "Center $0$; corners $4\\cdot 5$; edges $4\\cdot 3$: total $32$."
+  },
+  {
+   "number": 18,
+   "stem": "Three concentric circles centered at $O$ have radii of $1,$ $2,$ and $3.$ Points $B$ and $C$ lie on the largest circle. The region between the two smaller circles is shaded, as is the portion of the region between the two larger circles bounded by central angle $BOC,$ as shown in the figure below. Suppose the shaded and unshaded regions are equal in area. What is the measure of $\\angle BOC$ in degrees?\n\n![Problem diagram](assets/18.svg)",
+   "options": [
+    "$108$",
+    "$120$",
+    "$135$",
+    "$144$",
+    "$150$"
+   ],
+   "answer": "A",
+   "answerValue": "$108$",
+   "solution": "Equating $3\\pi+\\frac{\\theta}{360}5\\pi=\\pi+\\frac{360-\\theta}{360}5\\pi$ gives $\\theta=108$."
+  },
+  {
+   "number": 19,
+   "stem": "Jordan owns $15$ pairs of sneakers. Three fifths of the pairs are red and the rest are white. Two thirds of the pairs are high-top and the rest are low-top. The red high-top sneakers make up a fraction of the collection. What is the least possible value of this fraction?",
+   "options": [
+    "$0$",
+    "$\\dfrac{1}{5}$",
+    "$\\dfrac{4}{15}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{2}{5}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\dfrac{4}{15}$",
+   "solution": "At most $6$ white high-tops, so at least $10-6=4$ red high-tops: $\\frac{4}{15}$."
+  },
+  {
+   "number": 20,
+   "stem": "Any three vertices of the cube $PQRSTUVW,$ shown in the figure below, can be connected to form a triangle. (For example, vertices $P,$ $Q,$ and $R$ can be connected to form isosceles $\\bigtriangleup PQR.$) How many of these triangles are equilateral and contain $P$ as a vertex?\n\n![Problem diagram](assets/20.svg)",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$6$"
+   ],
+   "answer": "D",
+   "answerValue": "$3$",
+   "solution": "Face-diagonal equilateral triangles through $P$: $PVT,PRT,PRV$ — $3$."
+  },
+  {
+   "number": 21,
+   "stem": "A group of frogs (called an *army*) is living in a tree. A frog turns green when in the shade and turns yellow when in the sun. Initially, the ratio of green to yellow frogs was $3 : 1.$ Then $3$ green frogs moved to the sunny side and $5$ yellow frogs moved to the shady side. Now the ratio is $4 : 1.$ What is the difference between the number of green frogs and yellow frogs now?",
+   "options": [
+    "$10$",
+    "$12$",
+    "$16$",
+    "$20$",
+    "$24$"
+   ],
+   "answer": "E",
+   "answerValue": "$24$",
+   "solution": "Initially $y=10,g=30$; now $8$ yellow, $32$ green: difference $24$."
+  },
+  {
+   "number": 22,
+   "stem": "A roll of tape is $4$ inches in diameter and is wrapped around a ring that is $2$ inches in diameter. A cross section of the tape is shown in the figure below. The tape is $0.015$ inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest $100$ inches.\n\n![Problem diagram](assets/22.svg)",
+   "options": [
+    "$300$",
+    "$600$",
+    "$1200$",
+    "$1500$",
+    "$1800$"
+   ],
+   "answer": "B",
+   "answerValue": "$600$",
+   "solution": "Cross-section area $3\\pi=0.015L$: $L=200\\pi\\approx 628\\approx 600$."
+  },
+  {
+   "number": 23,
+   "stem": "Rodrigo has a very large piece of graph paper. First he draws a line segment connecting point $(0, 4)$ to point $(2, 0)$ and colors the $4$ cells whose interiors intersect the segment, as shown below. Next, Rodrigo draws a line segment connecting point $(2000, 3000)$ to point $(5000, 8000).$ Again he colors the cells whose interiors intersect the segment. How many cells will he color this time?\n\n![Problem diagram](assets/23.svg)",
+   "options": [
+    "$6000$",
+    "$6500$",
+    "$7000$",
+    "$7500$",
+    "$8000$"
+   ],
+   "answer": "C",
+   "answerValue": "$7000$",
+   "solution": "Cells $a+b-\\gcd(a,b)=3000+5000-1000=7000$."
+  },
+  {
+   "number": 24,
+   "stem": "Jean made a piece of stained glass art in the shape of two mountains, as shown in the figure below. One mountain peak is $8$ feet high and the other peak is $12$ feet high. Each peak forms a $90^\\circ$ angle, and the straight sides of the mountains form $45^\\circ$ angles with the ground. The artwork has an area of $183$ square feet. The sides of the mountains meet at an intersection point near the center of the artwork, $h$ feet above the ground. What is the value of $h?$\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$4$",
+    "$5$",
+    "$4\\sqrt{2}$",
+    "$6$",
+    "$5\\sqrt{2}$"
+   ],
+   "answer": "B",
+   "answerValue": "$5$",
+   "solution": "Areas $64+144-h^{2}=183$: $h=5$."
+  },
+  {
+   "number": 25,
+   "stem": "A small airplane has $4$ rows of seats with $3$ seats in each row. Eight passengers have boarded the plane and are distributed randomly among the seats. A married couple is next to board. What is the probability there will be $2$ adjacent seats in the same row for the couple?\n\n![Problem diagram](assets/25.svg)",
+   "options": [
+    "$\\dfrac{8}{15}$",
+    "$\\dfrac{32}{55}$",
+    "$\\dfrac{20}{33}$",
+    "$\\dfrac{34}{55}$",
+    "$\\dfrac{8}{11}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\dfrac{20}{33}$",
+   "solution": "Complement coefficient $81+108+6=195$: $1-\\frac{195}{495}=\\frac{20}{33}$."
+  }
+ ]
+}

@@ -1,13 +1,16 @@
-/* 2016 AMC 8 timed practice — single-page exam app.
+/* AMC 8 timed practice — shared single-page exam engine.
+ * Each year provides window.AMC8_EXAM = { examId: "amc8-2016", ... }
+ * plus a sibling test-data.json; this file holds no year-specific content.
  * Views: #/instructions, #/test, #/result (hash-routed, no server fallback needed).
  * Timing is wall-clock based (endsAt - now); refresh/background never extends it.
  */
 (function () {
   "use strict";
 
-  var CURR_KEY = "tobymath.amc8.2016.current.v1";
-  var RES_KEY = "tobymath.amc8.2016.result.v1";
-  var TAB_KEY = "tobymath.amc8.2016.tab";
+  var EXAM_ID = (window.AMC8_EXAM && window.AMC8_EXAM.examId) || "amc8-2016";
+  var CURR_KEY = "tobymath." + EXAM_ID + ".current.v1";
+  var RES_KEY = "tobymath." + EXAM_ID + ".result.v1";
+  var TAB_KEY = "tobymath." + EXAM_ID + ".tab";
   var OFFICIAL_DURATION = 2400; // 40 minutes — the published configuration.
   var LOCK_FRESH_MS = 15000;
 
@@ -56,7 +59,7 @@
   }
   function storageOK() {
     try {
-      var k = "tobymath.amc8.2016.probe";
+      var k = "tobymath." + EXAM_ID + ".probe";
       localStorage.setItem(k, "1");
       localStorage.removeItem(k);
       return true;
@@ -119,8 +122,13 @@
       return parts.join("");
     }).join("");
 
-    html = html.replace(/@@MATHD(\d+)@@/g, function (m, n) { return d[+n]; });
-    html = html.replace(/@@MATHI(\d+)@@/g, function (m, n) { return ix[+n]; });
+    // Restore math verbatim for MathJax, but escape HTML-significant chars so
+    // < and & inside formulas cannot break page parsing (e.g. $f<l$).
+    function escMath(t) {
+      return t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    }
+    html = html.replace(/@@MATHD(\d+)@@/g, function (m, n) { return escMath(d[+n]); });
+    html = html.replace(/@@MATHI(\d+)@@/g, function (m, n) { return escMath(ix[+n]); });
     return html;
   }
 
@@ -265,7 +273,7 @@
     var now = Date.now();
     var rec = {
       attemptId: uid(),
-      examId: "amc8-2016",
+      examId: EXAM_ID,
       bankVersion: bank.bankVersion || "1.0",
       durationSec: dur,
       startedAt: now,

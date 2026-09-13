@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2023",
+ "title": "2023 AMC 8",
+ "contest": "AMC 8",
+ "year": 2023,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "What is the value of the following expression?\n\n$$ (8 \\times 4 + 2) - (8 + 4 \\times 2) $$",
+   "options": [
+    "$0$",
+    "$6$",
+    "$10$",
+    "$18$",
+    "$24$"
+   ],
+   "answer": "D",
+   "answerValue": "$18$",
+   "solution": "$(32+2)-(8+8)=34-16=18$."
+  },
+  {
+   "number": 2,
+   "stem": "A square piece of paper is folded twice into four equal quarters, as shown below, then cut along the dashed line. When unfolded, the paper will match which of the following figures?\n\n![Problem diagram](assets/2.svg)",
+   "options": [
+    "![Option A diagram](assets/2a.svg)",
+    "![Option B diagram](assets/2b.svg)",
+    "![Option C diagram](assets/2c.svg)",
+    "![Option D diagram](assets/2d.svg)",
+    "![Option E diagram](assets/2e.svg)"
+   ],
+   "answer": "E",
+   "answerValue": "![Option E diagram](assets/2e.svg)",
+   "solution": "Unfolding mirrors the cut into all four quarters, matching figure E.\n\n![Published solution diagram for Problem 2](assets/2sol.svg)"
+  },
+  {
+   "number": 3,
+   "stem": "*Wind chill* is a measure of how cold people feel when exposed to wind outside. A good estimate for wind chill can be found using this calculation:\n\n$$W=T-0.7\\cdot S$$\n\nHere $W$ represents the wind chill, $T$ represents air temperature measured in degrees Fahrenheit $(^{\\circ}F),$ and $S$ represents wind speed measured in miles per hour (mph).\n\nSuppose the air temperature is $36^{\\circ}F$ and the wind speed is $18$ mph. Which of the following is closest to the approximate wind chill?",
+   "options": [
+    "$18$",
+    "$23$",
+    "$28$",
+    "$32$",
+    "$35$"
+   ],
+   "answer": "B",
+   "answerValue": "$23$",
+   "solution": "$36-0.7\\cdot 18=23.4$, closest to $23$."
+  },
+  {
+   "number": 4,
+   "stem": "The numbers from $1$ to $49$ are arranged in a spiral pattern on a square grid, beginning at the center. The first few numbers have been entered into the grid below. Consider the four numbers that will appear in the shaded squares, on the same diagonal as the number $7.$ How many of these four numbers are prime?\n\n![Problem diagram](assets/4.svg)",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "D",
+   "answerValue": "$3$",
+   "solution": "Completing the spiral, the shaded diagonal holds one composite and primes $19,23,47$: $3$.\n\n![Published solution diagram for Problem 4](assets/4sol.svg)"
+  },
+  {
+   "number": 5,
+   "stem": "A lake contains $250$ trout, along with a variety of other fish. When a marine biologist catches and releases a sample of $180$ fish from the lake, $30$ are identified as trout. Assume that the ratio of trout to the total number of fish is the same in both the sample and the lake. How many fish are there in the lake?",
+   "options": [
+    "$1250$",
+    "$1500$",
+    "$1750$",
+    "$1800$",
+    "$2000$"
+   ],
+   "answer": "B",
+   "answerValue": "$1500$",
+   "solution": "Trout are $\\frac{30}{180}=\\frac16$ of fish: $6\\cdot 250=1500$."
+  },
+  {
+   "number": 6,
+   "stem": "The digits $2,$ $0,$ $2,$ and $3$ are placed in the expression below, one digit per box. What is the maximum possible value of the expression?\n\n![Problem diagram](assets/6.svg)",
+   "options": [
+    "$0$",
+    "$8$",
+    "$9$",
+    "$16$",
+    "$18$"
+   ],
+   "answer": "C",
+   "answerValue": "$9$",
+   "solution": "Put $0$ as an exponent ($2^{0}=1$); best other factor $3^{2}$: $1\\times 9=9$."
+  },
+  {
+   "number": 7,
+   "stem": "A rectangle, with sides parallel to the $x$-axis and $y$-axis, has opposite vertices located at $(15, 3)$ and $(16, 5).$ A line is drawn through points $A(0, 0)$ and $B(3, 1).$ Another line is drawn through points $C(0, 10)$ and $D(2, 9).$ How many points on the rectangle lie on at least one of the two lines?\n\n![Problem diagram](assets/7.svg)",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "B",
+   "answerValue": "$1$",
+   "solution": "Line $AB$ ($y=x/3$) meets the rectangle only at $(15,5)$; line $CD$ passes below it: $1$ point.\n\n![Published solution diagram for Problem 7](assets/7sol.svg)"
+  },
+  {
+   "number": 8,
+   "stem": "Lola, Lolo, Tiya, and Tiyo participated in a ping pong tournament. Each player competed against each of the other three players exactly twice. Shown below are the win-loss records for the players. The numbers $1$ and $0$ represent a win or loss, respectively. For example, Lola won five matches and lost the fourth match. What was Tiyo’s win-loss record?\n\n![Problem diagram](assets/8.svg)",
+   "options": [
+    "$000101$",
+    "$001001$",
+    "$010000$",
+    "$010101$",
+    "$011000$"
+   ],
+   "answer": "A",
+   "answerValue": "$000101$",
+   "solution": "Each round column holds two $1$'s: completing gives Tiyo $000101$."
+  },
+  {
+   "number": 9,
+   "stem": "Malaika is skiing on a mountain. The graph below shows her elevation, in meters, above the base of the mountain as she skis along a trail. In total, how many seconds does she spend at an elevation between $4$ and $7$ meters?\n\n![Problem diagram](assets/9.svg)",
+   "options": [
+    "$6$",
+    "$8$",
+    "$10$",
+    "$12$",
+    "$14$"
+   ],
+   "answer": "B",
+   "answerValue": "$8$",
+   "solution": "Time in $[4,7]$: $(4-2)+(10-6)+(14-12)=8$ seconds."
+  },
+  {
+   "number": 10,
+   "stem": "Harold made a plum pie to take on a picnic. He was able to eat only $\\frac{1}{4}$ of the pie, and he left the rest for his friends. A moose came by and ate $\\frac{1}{3}$ of what Harold left behind. After that, a porcupine ate $\\frac{1}{3}$ of what the moose left behind. How much of the original pie still remained after the porcupine left?",
+   "options": [
+    "$\\dfrac{1}{12}$",
+    "$\\dfrac{1}{6}$",
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{5}{12}$"
+   ],
+   "answer": "D",
+   "answerValue": "$\\dfrac{1}{3}$",
+   "solution": "Remainders multiply: $\\frac34\\cdot\\frac23\\cdot\\frac23=\\frac13$."
+  },
+  {
+   "number": 11,
+   "stem": "NASA’s Perseverance Rover was launched on July $30,$ $2020.$ After traveling $292{,}526{,}838$ miles, it landed on Mars in Jezero Crater about $6.5$ months later. Which of the following is closest to the Rover’s average interplanetary speed in miles per hour?",
+   "options": [
+    "$6{,}000$",
+    "$12{,}000$",
+    "$60{,}000$",
+    "$120{,}000$",
+    "$600{,}000$"
+   ],
+   "answer": "C",
+   "answerValue": "$60{,}000$",
+   "solution": "About $\\frac{300{,}000{,}000}{200\\cdot 24}\\approx 62{,}500$ mph: closest to $60{,}000$."
+  },
+  {
+   "number": 12,
+   "stem": "The figure below shows a large unshaded circle with a number of smaller unshaded and shaded circles in its interior. What fraction of the interior of the large unshaded circle is shaded?\n\n![Problem diagram](assets/12.svg)",
+   "options": [
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{11}{36}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{19}{36}$",
+    "$\\dfrac{5}{9}$"
+   ],
+   "answer": "B",
+   "answerValue": "$\\dfrac{11}{36}$",
+   "solution": "Shaded $3\\pi+(16\\pi-8\\pi)=11\\pi$ of $36\\pi$: $\\frac{11}{36}$."
+  },
+  {
+   "number": 13,
+   "stem": "Along the route of a bicycle race, $7$ water stations are evenly spaced between the start and finish lines, as shown in the figure below. There are also $2$ repair stations evenly spaced between the start and finish lines. The $3$rd water station is located $2$ miles after the $1$st repair station. How long is the race in miles?\n\n![Problem diagram](assets/13.svg)",
+   "options": [
+    "$8$",
+    "$16$",
+    "$24$",
+    "$48$",
+    "$96$"
+   ],
+   "answer": "D",
+   "answerValue": "$48$",
+   "solution": "Gap $\\frac38-\\frac13=\\frac{1}{24}$ of the race equals $2$ miles: $48$ miles."
+  },
+  {
+   "number": 14,
+   "stem": "Nicolas is planning to send a package to his friend Anton, who is a stamp collector. To pay for the postage, Nicolas would like to cover the package with a large number of stamps. Suppose he has a collection of $5$-cent, $10$-cent, and $25$-cent stamps, with exactly $20$ of each type. What is the greatest number of stamps Nicolas can use to make exactly $\\$7.10$ in postage?\n\n(Note: The amount $\\$7.10$ corresponds to $7$ dollars and $10$ cents. One dollar is worth $100$ cents.)",
+   "options": [
+    "$45$",
+    "$46$",
+    "$51$",
+    "$54$",
+    "$55$"
+   ],
+   "answer": "E",
+   "answerValue": "$55$",
+   "solution": "At most $55$: $n\\ge 56$ contradicts $2b+5c\\ge 122$; attainable with $19,19,17$."
+  },
+  {
+   "number": 15,
+   "stem": "Viswam walks half a mile to get to school each day. His route consists of $10$ city blocks of equal length and he takes one minute to walk each block. Today, after walking $5$ blocks, Viswam discovers that he has to make a detour, walking $3$ blocks of equal length instead of $1$ block to reach the next corner. From the time he starts his detour, at what speed, in miles per hour, must Viswam walk in order to arrive at school at his usual time?\n\n![Problem diagram](assets/15.svg)",
+   "options": [
+    "$4$",
+    "$4.2$",
+    "$4.5$",
+    "$4.8$",
+    "$5$"
+   ],
+   "answer": "B",
+   "answerValue": "$4.2$",
+   "solution": "Needs $\\frac{7/20}{1/12}=\\frac{21}{5}=4.2$ mph."
+  },
+  {
+   "number": 16,
+   "stem": "The letters $P,$ $Q,$ and $R$ are entered into a $20 \\times 20$ table according to the pattern shown below. How many $P$s, $Q$s, and $R$s will appear in the completed table?\n\n![Problem diagram](assets/16.svg)",
+   "options": [
+    "$132$ $P$s, $134$ $Q$s, $134$ $R$s",
+    "$133$ $P$s, $133$ $Q$s, $134$ $R$s",
+    "$133$ $P$s, $134$ $Q$s, $133$\n$R$s",
+    "$134$ $P$s, $132$ $Q$s, $134$ $R$s",
+    "$134$ $P$s, $133$ $Q$s, $133$ $R$s"
+   ],
+   "answer": "C",
+   "answerValue": "$133$ $P$s, $134$ $Q$s, $133$\n$R$s",
+   "solution": "Columns: the third letter appears $6$ times, others $7$. $P,R$ each $7\\cdot 6+13\\cdot 7=133$; $Q=400-266=134$."
+  },
+  {
+   "number": 17,
+   "stem": "A *regular octahedron* has eight equilateral triangle faces with four faces meeting at each vertex. Jun will make the regular octahedron shown in the figure by folding the piece of paper below. Which numbered face will end up to the right of the shaded region $Q?$\n\n![Problem diagram](assets/17.svg)",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$"
+   ],
+   "answer": "A",
+   "answerValue": "$1$",
+   "solution": "Faces $2,3,4,5$ form the bottom half; $6$ lands left of $Q$ (with $7$ left of $6$), leaving $1$ to the right of $Q$."
+  },
+  {
+   "number": 18,
+   "stem": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump $5$ pads to the right or $3$ pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located $2023$ pads to the right of her starting position?",
+   "options": [
+    "$405$",
+    "$407$",
+    "$409$",
+    "$411$",
+    "$413$"
+   ],
+   "answer": "D",
+   "answerValue": "$411$",
+   "solution": "$l\\equiv 4\\pmod 5$; smallest $l=4$ gives $r=407$: $411$ jumps."
+  },
+  {
+   "number": 19,
+   "stem": "An equilateral triangle is placed inside a larger equilateral triangle so that the region between them can be divided into three congruent trapezoids, as shown below. The side length of the inner triangle is $\\frac{2}{3}$ the side length of the larger triangle. What is the ratio of the area of one trapezoid to the area of the inner triangle?\n\n![Problem diagram](assets/19.svg)",
+   "options": [
+    "$1 : 3$",
+    "$3 : 8$",
+    "$5 : 12$",
+    "$7 : 16$",
+    "$4 : 9$"
+   ],
+   "answer": "C",
+   "answerValue": "$5 : 12$",
+   "solution": "Trapezoids total $1-\\frac49=\\frac59$; one is $\\frac{5}{27}$ of outer; ratio $\\frac{5/27}{4/9}=\\frac{5}{12}$."
+  },
+  {
+   "number": 20,
+   "stem": "Two integers are inserted into the list $3,$ $3,$ $8,$ $11,$ $28$ to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers?",
+   "options": [
+    "$56$",
+    "$57$",
+    "$58$",
+    "$60$",
+    "$61$"
+   ],
+   "answer": "D",
+   "answerValue": "$60$",
+   "solution": "New range $50$ with median $8$ and mode preserved: best $x=7,y=53$ sums $60$."
+  },
+  {
+   "number": 21,
+   "stem": "Alina writes the numbers $1,$ $2,$ $\\cdots,$ $9$ on separate cards, one number per card. She wishes to divide the cards into $3$ groups of $3$ cards so that the sum of the numbers in each group will be the same. In how many ways can this be done?",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": "C",
+   "answerValue": "$2$",
+   "solution": "Each group sums $15$; the $9$-group is $\\{1,5,9\\}$ or $\\{2,4,9\\}$, each forcing the rest: $2$ ways."
+  },
+  {
+   "number": 22,
+   "stem": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is $4000.$ What is the first term?",
+   "options": [
+    "$1$",
+    "$2$",
+    "$4$",
+    "$5$",
+    "$10$"
+   ],
+   "answer": "D",
+   "answerValue": "$5$",
+   "solution": "Terms $x,y,xy,xy^{2},x^{2}y^{3},x^{3}y^{5}$: $x^{3}y^{5}=2^{5}\\cdot 5^{3}$ forces $y=2,x=5$."
+  },
+  {
+   "number": 23,
+   "stem": "Each square in a $3 \\times 3$ grid is randomly filled with one of the $4$ shaded-and-unshaded tiles shown below on the right.\n\n![The four tile designs](assets/23a.svg)\n\nWhat is the probability that the tiling will contain a large shaded diamond in one of the smaller $2 \\times 2$ grids? Below is an example of such a tiling.\n\n![Example tiling with a large shaded diamond](assets/23b.svg)",
+   "options": [
+    "$\\dfrac{1}{1024}$",
+    "$\\dfrac{1}{256}$",
+    "$\\dfrac{1}{64}$",
+    "$\\dfrac{1}{16}$",
+    "$\\dfrac{1}{4}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\dfrac{1}{64}$",
+   "solution": "Choose the $2\\times 2$ block ($4$ ways), force its $4$ tiles, free rest: $\\frac{4\\cdot 4^{5}}{4^{9}}=\\frac{1}{64}$."
+  },
+  {
+   "number": 24,
+   "stem": "Isosceles triangle $ABC$ has equal side lengths $AB$ and $BC.$ In the figures below, segments are drawn parallel to $\\overline{AC}$ so that the shaded portions of $\\triangle ABC$ have the same area. The heights of the two unshaded portions are $11$ and $5$ units, respectively. What is the height $h$ of $\\triangle ABC?$\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$14.6$",
+    "$14.8$",
+    "$15$",
+    "$15.2$",
+    "$15.4$"
+   ],
+   "answer": "A",
+   "answerValue": "$14.6$",
+   "solution": "Equating shaded areas: $1-\\left(\\frac{11}{h}\\right)^{2}=\\left(\\frac{h-5}{h}\\right)^{2}$ gives $10h=146$: $14.6$."
+  },
+  {
+   "number": 25,
+   "stem": "Fifteen integers $a_1,$ $a_2,$ $a_3,$ $\\cdots,$ $a_{15}$ are arranged in order on a number line. The integers are equally spaced and have the property that\n\n$$ 1 \\leq a_1 \\leq 10, $$\n\n$$ 13 \\leq a_2 \\leq 20, $$\n\nand\n\n$$ 241 \\leq a_{15} \\leq 250. $$\n\nWhat is the sum of the digits of $a_{14}?$",
+   "options": [
+    "$8$",
+    "$9$",
+    "$10$",
+    "$11$",
+    "$12$"
+   ],
+   "answer": "A",
+   "answerValue": "$8$",
+   "solution": "$d=17$, $a_{1}=3$: $a_{14}=3+13\\cdot 17=224$, digit sum $8$."
+  }
+ ]
+}

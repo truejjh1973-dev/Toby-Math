@@ -1,0 +1,362 @@
+{
+ "examId": "amc8-2019",
+ "title": "2019 AMC 8",
+ "contest": "AMC 8",
+ "year": 2019,
+ "bankVersion": "1.0",
+ "durationSec": 2400,
+ "questionCount": 25,
+ "copyright": "Problems: Mathematical Association of America, American Mathematics Competitions.",
+ "questions": [
+  {
+   "number": 1,
+   "stem": "Ike and Mike go into a sandwich shop with a total of $\\$30.00$ to spend. Sandwiches cost $\\$4.50$ each and soft drinks cost $\\$1.00$ each. Ike and Mike plan to buy as many sandwiches as they can, and use any remaining money to buy soft drinks. Counting both soft drinks and sandwiches, how many items will they buy?",
+   "options": [
+    "$6$",
+    "$7$",
+    "$8$",
+    "$9$",
+    "$10$"
+   ],
+   "answer": "D",
+   "answerValue": "$9$",
+   "solution": "Six sandwiches cost $6\\times 4.50=27$ dollars, leaving $3$ for $3$ drinks: $6+3=9$ items."
+  },
+  {
+   "number": 2,
+   "stem": "Three identical rectangles are put together to form rectangle $ABCD,$ as shown in the figure below. Given that the length of the shorter side of each of the smaller rectangles is $5$ feet, what is the area in square feet of rectangle $ABCD?$\n\n![Problem diagram](assets/2.svg)",
+   "options": [
+    "$45$",
+    "$75$",
+    "$100$",
+    "$125$",
+    "$150$"
+   ],
+   "answer": "E",
+   "answerValue": "$150$",
+   "solution": "Each factor is $1+\\frac1n=\\frac{n+1}{n}$; the product telescopes to $7$."
+  },
+  {
+   "number": 3,
+   "stem": "Which of the following is the correct order of the fractions $\\dfrac{15}{11},$ $\\dfrac{19}{15},$ and $\\dfrac{17}{13},$ from least to greatest?",
+   "options": [
+    "$\\dfrac{15}{11} \\lt \\dfrac{17}{13} \\lt \\dfrac{19}{15}$",
+    "$\\dfrac{15}{11} \\lt \\dfrac{19}{15} \\lt \\dfrac{17}{13}$",
+    "$\\dfrac{17}{13} \\lt \\dfrac{19}{15} \\lt \\dfrac{15}{11}$",
+    "$\\dfrac{19}{15} \\lt \\dfrac{15}{11} \\lt \\dfrac{17}{13}$",
+    "$\\dfrac{19}{15} \\lt \\dfrac{17}{13} \\lt \\dfrac{15}{11}$"
+   ],
+   "answer": "E",
+   "answerValue": "$\\dfrac{19}{15} \\lt \\dfrac{17}{13} \\lt \\dfrac{15}{11}$",
+   "solution": "Writing each fraction as $1+\\frac{4}{n}$ shows larger denominators give smaller values: $\\frac{19}{15}\\lt\\frac{17}{13}\\lt\\frac{15}{11}$."
+  },
+  {
+   "number": 4,
+   "stem": "Quadrilateral $ABCD$ is a rhombus with perimeter $52$ meters. The length of diagonal $\\overline{AC}$ is $24$ meters. What is the area in square meters of rhombus $ABCD?$\n\n![Problem diagram](assets/4.svg)",
+   "options": [
+    "$60$",
+    "$90$",
+    "$105$",
+    "$120$",
+    "$144$"
+   ],
+   "answer": "D",
+   "answerValue": "$120$",
+   "solution": "Side $13$ with half-diagonal $12$ gives the other half-diagonal $\\sqrt{13^{2}-12^{2}}=5$; area $4\\cdot\\frac{5\\cdot 12}{2}=120$.\n\n![Published solution diagram for Problem 4](assets/4sol.svg)"
+  },
+  {
+   "number": 5,
+   "stem": "A tortoise challenges a hare to a race. The hare eagerly agrees and quickly runs ahead, leaving the slow-moving tortoise behind. Confident that he will win, the hare stops to take a nap. Meanwhile, the tortoise walks at a slow steady pace for the entire race. The hare awakes and runs to the finish line, only to find the tortoise already there. Which of the following graphs matches the description of the race, showing the distance $d$ traveled by the two animals over time $t$ from start to finish?",
+   "options": [
+    "![Option A diagram](assets/5a.svg)",
+    "![Option B diagram](assets/5b.svg)",
+    "![Option C diagram](assets/5c.svg)",
+    "![Option D diagram](assets/5d.svg)",
+    "![Option E diagram](assets/5e.svg)"
+   ],
+   "answer": "B",
+   "answerValue": "![Option B diagram](assets/5b.svg)",
+   "solution": "The hare's path has a flat nap segment and ends later (larger $x$-value) than the tortoise's: graph B."
+  },
+  {
+   "number": 6,
+   "stem": "There are $81$ grid points (uniformly spaced) in the square shown in the diagram below, including the points on the edges. Point $P$ is in the center of the square. Given that point $Q$ is randomly chosen among the other $80$ points, what is the probability that the line $PQ$ is a line of symmetry for the square?\n\n![Problem diagram](assets/6.svg)",
+   "options": [
+    "$\\displaystyle \\dfrac{1}{5}$",
+    "$\\displaystyle \\dfrac{1}{4}$",
+    "$\\displaystyle \\dfrac{2}{5}$",
+    "$\\displaystyle \\dfrac{9}{20}$",
+    "$\\displaystyle \\dfrac{1}{2}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\displaystyle \\dfrac{2}{5}$",
+   "solution": "The square has $4$ symmetry lines through $P$, each holding $8$ other grid points: $32$ choices. Probability $\\frac{32}{80}=\\frac25$."
+  },
+  {
+   "number": 7,
+   "stem": "Shauna takes five tests, each worth a maximum of $100$ points. Her scores on the first three tests are $76,$ $94,$ and $87.$ In order to average $81$ for all five tests, what is the lowest score she could earn on one of the other two tests?",
+   "options": [
+    "$48$",
+    "$52$",
+    "$66$",
+    "$70$",
+    "$74$"
+   ],
+   "answer": "A",
+   "answerValue": "$48$",
+   "solution": "Five-test total $5\\cdot 81=405$. Maximizing the fourth test at $100$ leaves $405-(76+94+87+100)=48$ for the last."
+  },
+  {
+   "number": 8,
+   "stem": "Gilda has a bag of marbles. She gives $20\\%$ of them to her friend Pedro. Then Gilda gives $10\\%$ of what is left to another friend, Ebony. Finally, Gilda gives $25\\%$ of what is now left in the bag to her brother Jimmy. What percentage of her original bag of marbles does Gilda have left for herself?",
+   "options": [
+    "$20$",
+    "$33\\dfrac{1}{3}$",
+    "$38$",
+    "$45$",
+    "$54$"
+   ],
+   "answer": "E",
+   "answerValue": "$54$",
+   "solution": "Remaining fraction $0.8\\cdot 0.9\\cdot 0.75=0.54$: Gilda keeps $54\\%$."
+  },
+  {
+   "number": 9,
+   "stem": "Alex and Felicia each have cats as pets. Alex buys cat food in cylindrical cans that are $6$ cm in diameter and $12$ cm high. Felicia buys cat food in cylindrical cans that are $12$ cm in diameter and $6$ cm high. What is the ratio of the volume of one of Alex’s cans to the volume of one of Felicia’s cans?",
+   "options": [
+    "$1:4$",
+    "$1:2$",
+    "$1:1$",
+    "$2:1$",
+    "$4:1$"
+   ],
+   "answer": "B",
+   "answerValue": "$1:2$",
+   "solution": "Felicia's base area is $2^{2}=4$ times Alex's, but half the height: volume ratio $1:2$."
+  },
+  {
+   "number": 10,
+   "stem": "The diagram shows the number of students at soccer practice each weekday during last week. After computing the mean and median values, Coach discovers that there were actually $21$ participants on Wednesday. Which of the following statements describes the change in the mean and median after the correction is made?\n\n![Problem diagram](assets/10.svg)",
+   "options": [
+    "The mean increases by $1$ and the median does not\nchange.",
+    "The mean increases by $1$ and the median\nincreases by $1.$",
+    "The mean increases by $1$ and the median increases by\n$5.$",
+    "The mean increases by $5$ and the median increases by\n$1.$",
+    "The mean increases by $5$ and the median increases by\n$5.$"
+   ],
+   "answer": "B",
+   "answerValue": "The mean increases by $1$ and the median\nincreases by $1.$",
+   "solution": "Five extra participants raise the mean by $5/5=1$; replacing Wednesday's $16$ with $21$ moves the median from $20$ to $21$."
+  },
+  {
+   "number": 11,
+   "stem": "The eighth grade class at Lincoln Middle School has $93$ students. Each student takes a math class or a foreign language class or both. There are $70$ eighth graders taking a math class, and there are $54$ eighth graders taking a foreign language class. How many eighth graders take *only* a math class and *not* a foreign language class?",
+   "options": [
+    "$16$",
+    "$23$",
+    "$31$",
+    "$39$",
+    "$70$"
+   ],
+   "answer": "D",
+   "answerValue": "$39$",
+   "solution": "Both classes: $70+54-93=31$. Math only: $70-31=39$."
+  },
+  {
+   "number": 12,
+   "stem": "The faces of a cube are painted in six different colors: red ($R$), white ($W$), green ($G$), brown ($B$), aqua ($A$), and purple ($P$). Three views of the cube are shown below. What is the color of the face opposite the aqua face?\n\n![Problem diagram](assets/12.svg)",
+   "options": [
+    "red",
+    "white",
+    "green",
+    "brown",
+    "purple"
+   ],
+   "answer": "A",
+   "answerValue": "red",
+   "solution": "The first and third views pair brown with purple; the first and second pair green with white; aqua is left opposite red."
+  },
+  {
+   "number": 13,
+   "stem": "A *palindrome* is a number that has the same value when read from left to right or from right to left. (For example, $12321$ is a palindrome.) Let $N$ be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of $N?$",
+   "options": [
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$",
+    "$6$"
+   ],
+   "answer": "A",
+   "answerValue": "$2$",
+   "solution": "Two-digit palindromes are multiples of $11$, so $N$ is too. Least three-digit non-palindrome multiple: $110=11+22+77$; digit sum $2$."
+  },
+  {
+   "number": 14,
+   "stem": "Isabella has $6$ coupons that can be redeemed for free ice cream cones at Pete’s Sweet Treats. In order to make the coupons last, she decides that she will redeem one every $10$ days until she has used them all. She knows that Pete’s is closed on Sundays, but as she circles the $6$ dates on her calendar, she realizes that no circled date falls on a Sunday. On what day of the week does Isabella redeem her first coupon?",
+   "options": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "answer": "C",
+   "answerValue": "Wednesday",
+   "solution": "Redemptions advance $3$ weekdays each time, covering six of seven days and missing $x+4$. Sunday is the missed day, so the first day is four days earlier: Wednesday."
+  },
+  {
+   "number": 15,
+   "stem": "On a beach $50$ people are wearing sunglasses and $35$ people are wearing caps. Some people are wearing both sunglasses and caps. If one of the people wearing a cap is selected at random, the probability that this person is also wearing sunglasses is $\\dfrac{2}{5}.$ If instead, someone wearing sunglasses is selected at random, what is the probability that this person is also wearing a cap?",
+   "options": [
+    "$\\displaystyle \\dfrac{14}{85}$",
+    "$\\displaystyle \\dfrac{7}{25}$",
+    "$\\displaystyle \\dfrac{2}{5}$",
+    "$\\displaystyle \\dfrac{4}{7}$",
+    "$\\displaystyle \\dfrac{7}{10}$"
+   ],
+   "answer": "B",
+   "answerValue": "$\\displaystyle \\dfrac{7}{25}$",
+   "solution": "$35\\cdot\\frac25=14$ people wear both; $\\frac{14}{50}=\\frac{7}{25}$."
+  },
+  {
+   "number": 16,
+   "stem": "Qiang drives $15$ miles at an average speed of $30$ miles per hour. How many additional miles will he have to drive at $55$ miles per hour to average $50$ miles per hour for the entire trip?",
+   "options": [
+    "$45$",
+    "$62$",
+    "$90$",
+    "$110$",
+    "$135$"
+   ],
+   "answer": "D",
+   "answerValue": "$110$",
+   "solution": "$\\frac12+\\frac{x}{55}=\\frac{x+15}{50}$ gives $x=110$ additional miles."
+  },
+  {
+   "number": 17,
+   "stem": "What is the value of the product below?\n\n$$\\begin{align*}\\displaystyle & \\left(\\dfrac{1\\cdot 3}{2\\cdot 2}\\right)\\left(\\dfrac{2\\cdot 4}{3\\cdot 3}\\right)\\left(\\dfrac{3\\cdot 5}{4\\cdot 4}\\right) \\\\ & \\dots\\left(\\dfrac{97\\cdot 99}{98\\cdot 98}\\right)\\left(\\dfrac{98\\cdot 100}{99\\cdot 99}\\right) \\end{align*}$$",
+   "options": [
+    "$\\displaystyle \\dfrac{1}{2}$",
+    "$\\displaystyle \\dfrac{50}{99}$",
+    "$\\displaystyle \\dfrac{9800}{9801}$",
+    "$\\displaystyle \\dfrac{100}{99}$",
+    "$50$"
+   ],
+   "answer": "B",
+   "answerValue": "$\\displaystyle \\dfrac{50}{99}$",
+   "solution": "Regrouping the factors leaves $\\frac12\\cdot\\frac{100}{99}=\\frac{50}{99}$."
+  },
+  {
+   "number": 18,
+   "stem": "The faces of each of two fair dice are numbered $1,$ $2,$ $3,$ $5,$ $7,$ and $8.$ When the two dice are tossed, what is the probability that their sum will be an even number?",
+   "options": [
+    "$\\displaystyle \\dfrac{4}{9}$",
+    "$\\displaystyle \\dfrac{1}{2}$",
+    "$\\displaystyle \\dfrac{5}{9}$",
+    "$\\displaystyle \\dfrac{3}{5}$",
+    "$\\displaystyle \\dfrac{2}{3}$"
+   ],
+   "answer": "C",
+   "answerValue": "$\\displaystyle \\dfrac{5}{9}$",
+   "solution": "Even plus even, or odd plus odd: $\\frac13\\cdot\\frac13+\\frac23\\cdot\\frac23=\\frac59$."
+  },
+  {
+   "number": 19,
+   "stem": "In a tournament there are six teams that play each other twice. A team earns $3$ points for a win, $1$ point for a draw, and $0$ points for a loss. After all the games have been played it turns out that the top three teams earned the same number of total points. What is the greatest possible number of total points for each of the top three teams?",
+   "options": [
+    "$22$",
+    "$23$",
+    "$24$",
+    "$26$",
+    "$30$"
+   ],
+   "answer": "C",
+   "answerValue": "$24$",
+   "solution": "Each top team takes at most $18$ points from the bottom three and at most $\\frac{18}{3}=6$ from the six intra-group games: $24$ total, attainable by splitting each top pair."
+  },
+  {
+   "number": 20,
+   "stem": "How many different real numbers $x$ satisfy the equation\n\n$$ (x^2 - 5)^2 = 16? $$",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$4$",
+    "$8$"
+   ],
+   "answer": "D",
+   "answerValue": "$4$",
+   "solution": "$x^{2}-5=\\pm 4$ gives $x^{2}=9$ or $1$: $4$ real values."
+  },
+  {
+   "number": 21,
+   "stem": "What is the area of the triangle formed by the lines $y = 5,$ $y = 1 + x,$ and $y = 1 - x?$",
+   "options": [
+    "$4$",
+    "$8$",
+    "$10$",
+    "$12$",
+    "$16$"
+   ],
+   "answer": "E",
+   "answerValue": "$16$",
+   "solution": "Vertices $(4,5),(-4,5),(0,1)$: base $8$, height $4$, area $\\frac12\\cdot 8\\cdot 4=16$."
+  },
+  {
+   "number": 22,
+   "stem": "A store increased the original price of a shirt by a certain percent and then decreased the new price by the same percent. Given that the resulting price was $84\\%$ of the original price, by what percent was the price increased and decreased?",
+   "options": [
+    "$16$",
+    "$20$",
+    "$28$",
+    "$36$",
+    "$40$"
+   ],
+   "answer": "E",
+   "answerValue": "$40$",
+   "solution": "$(1+x)(1-x)=0.84$ gives $x^{2}=0.16$: the percent is $40\\%$."
+  },
+  {
+   "number": 23,
+   "stem": "After Euclid High School’s last basketball game, it was determined that $\\dfrac{1}{4}$ of the team’s points were scored by Alexa and $\\dfrac{2}{7}$ were scored by Brittany. Chelsea scored $15$ points. None of the other $7$ team members scored more than $2$ points. What was the total number of points scored by the other $7$ team members?",
+   "options": [
+    "$10$",
+    "$11$",
+    "$12$",
+    "$13$",
+    "$14$"
+   ],
+   "answer": "B",
+   "answerValue": "$11$",
+   "solution": "With total $x$ and others' total $y$: $y+15=\\frac{13x}{28}$. Multiples of $28$: $x=28$ gives $y=-2$, $x=56$ gives $y=11$, larger give $y>14$: $11$."
+  },
+  {
+   "number": 24,
+   "stem": "In triangle $ABC,$ point $D$ divides side $\\overline{AC}$ so that $AD : DC = 1 : 2.$ Let $E$ be the midpoint of $\\overline{BD}$ and let $F$ be the point of intersection of line $BC$ and line $AE.$ Given that the area of $\\triangle ABC$ is $360,$ what is the area of $\\triangle EBF?$\n\n![Problem diagram](assets/24.svg)",
+   "options": [
+    "$24$",
+    "$30$",
+    "$32$",
+    "$36$",
+    "$40$"
+   ],
+   "answer": "B",
+   "answerValue": "$30$",
+   "solution": "$[ABD]=120$, $[DBC]=240$; with $x=[EBF]=[DEF]$, $\\frac{60+x}{240-2x}=\\frac12$ gives $x=30$."
+  },
+  {
+   "number": 25,
+   "stem": "Alice has $24$ apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least two apples?",
+   "options": [
+    "$105$",
+    "$114$",
+    "$190$",
+    "$210$",
+    "$380$"
+   ],
+   "answer": "C",
+   "answerValue": "$190$",
+   "solution": "Give each person $2$ first; distribute the remaining $18$ freely: $\\binom{18+3-1}{3-1}=\\binom{20}{2}=190$."
+  }
+ ]
+}

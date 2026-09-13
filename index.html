@@ -8,6 +8,7 @@
   <meta property="og:title" content="Toby's Mathematical Playground">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="competition/amc8/exam.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∑</text></svg>">
 </head>
 <body>
@@ -51,9 +52,11 @@
   <div class="container">
     <div class="card" style="border-left:4px solid var(--accent);">
       <span class="meta">TIMED PRACTICE · AMC 8</span>
-      <h3>2016 AMC 8 — full mock under real conditions</h3>
-      <p>25 questions · 40 minutes · No calculator. Instant scoring with full solutions review afterwards. Your progress is saved on this device.</p>
-      <p style="margin:0;"><a class="btn btn-primary" href="competition/amc8/2016/index.html" style="background:var(--accent);color:#fff;">Take the 2016 Test</a></p>
+      <h3>Recent AMC 8 papers, under real conditions</h3>
+      <p>To help you understand what the AMC 8 is really like, try recent official papers as timed mock tests: 25 questions, 40 minutes, no calculator — with instant scoring and full solutions review. Your progress is saved on this device.</p>
+      <div data-year-picker data-base="competition/amc8">
+        <p style="margin:0;"><a class="btn btn-primary" href="competition/amc8/index.html" style="background:var(--accent);color:#fff;">Browse all practice tests</a></p>
+      </div>
     </div>
   </div>
 </section>
@@ -150,5 +153,7 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="competition/amc8/years.js"></script>
+<script src="competition/amc8/year-picker.js"></script>
 </body>
 </html>
