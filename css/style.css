@@ -187,6 +187,23 @@ a:hover { text-decoration: underline; }
 }
 html[data-theme="dark"] .about-photo { border-color: var(--line); }
 
+/* ---------- Photo gallery (certificates, lecture photos) ---------- */
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+@media (max-width: 900px) {
+  .gallery { grid-template-columns: 1fr; }
+}
+.gallery figure {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 12px;
+  margin: 0;
+}
+.gallery img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: top; border-radius: 6px; }
+.gallery figcaption { font-size: 0.82rem; color: #55616c; text-align: center; margin-top: 8px; }
+.card-photo { display: block; width: 100%; height: auto; border-radius: 8px; margin-bottom: 12px; }
+
 /* ---------- Steps / where to start ---------- */
 .step-no {
   display: inline-block;
@@ -413,6 +430,7 @@ html[data-theme="dark"] .about-photo { border-color: var(--line); }
   .page-head h1 { color: var(--ink); }
   .print-only { display: block; }
   .card { box-shadow: none; }
+  .gallery img { max-height: 3in; width: auto; max-width: 100%; margin: 0 auto; }
   .quiz .options button { border: 1px solid var(--ink); }
 }
 
